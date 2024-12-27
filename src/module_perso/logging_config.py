@@ -11,9 +11,12 @@ logging.basicConfig(
     level=logging.DEBUG,  # Niveau global de logging
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler(LOG_FILE, mode="a")  # Enregistre les logs uniquement dans un fichier
-    ]
+        logging.FileHandler(
+            LOG_FILE, mode="a"
+        )  # Enregistre les logs uniquement dans un fichier
+    ],
 )
+
 
 def get_logger(name):
     """

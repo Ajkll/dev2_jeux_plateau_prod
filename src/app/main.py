@@ -9,6 +9,7 @@ from module_perso.logging_config import get_logger
 
 logger = get_logger(__name__)
 
+
 def main():
     logger.info("Lancement du jeu de plateau.")
     affichage = Affichage()
@@ -16,7 +17,9 @@ def main():
     # Initialisation initiale
     noms_joueurs = ["Pion 1", "Pion 2"]
     cases_speciales = {5: "reculer", 8: "question", 10: "changement_map"}
-    logger.debug(f"Noms des joueurs: {noms_joueurs}, Cases spéciales: {cases_speciales}")
+    logger.debug(
+        f"Noms des joueurs: {noms_joueurs}, Cases spéciales: {cases_speciales}"
+    )
 
     while True:
         # Réinitialisation pour une nouvelle partie
