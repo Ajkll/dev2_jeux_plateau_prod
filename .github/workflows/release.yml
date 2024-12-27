@@ -1,0 +1,43 @@
+name: Release Workflow
+
+on:
+  push:
+    tags:
+      - "v*.*.*" # Ce déclencheur s'active lorsqu'un tag correspondant au format v1.0.0 est créé
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build and publish package
+        run: |
+          python setup.py sdist
+          python -m pip install twine
+          twine upload dist/* --skip-existing
+        env:
+          TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
+          TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+
+      - name: Create release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          body: |
+            Automatically generated release for version ${{ github.ref_name }}.
+          draft: false
+          prerelease: false

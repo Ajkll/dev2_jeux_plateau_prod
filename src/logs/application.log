@@ -1,0 +1,222 @@
+2024-12-27 18:27:06,121 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:27:06,121 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:27:06,121 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:27:06,122 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:27:09,301 - __main__ - INFO - Action choisie par Pion 1: y
+2024-12-27 18:27:09,301 - __main__ - INFO - Pion 1 a lancé un 6.
+2024-12-27 18:27:09,302 - __main__ - DEBUG - Effet de la case: None
+2024-12-27 18:27:09,302 - __main__ - DEBUG - Passage au joueur suivant: 1
+2024-12-27 18:27:09,302 - __main__ - DEBUG - Tour du joueur: Pion 2
+2024-12-27 18:27:10,293 - __main__ - INFO - Action choisie par Pion 2: y
+2024-12-27 18:27:10,293 - __main__ - INFO - Pion 2 a lancé un 1.
+2024-12-27 18:27:10,293 - __main__ - DEBUG - Effet de la case: None
+2024-12-27 18:27:10,293 - __main__ - DEBUG - Passage au joueur suivant: 0
+2024-12-27 18:27:10,293 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:27:11,262 - __main__ - INFO - Action choisie par Pion 1: y
+2024-12-27 18:27:11,263 - __main__ - INFO - Pion 1 a lancé un 4.
+2024-12-27 18:27:11,263 - __main__ - DEBUG - Effet de la case: changement_map
+2024-12-27 18:30:37,749 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:30:37,749 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:30:37,749 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:30:37,750 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:30:39,562 - __main__ - INFO - Action choisie par Pion 1: y
+2024-12-27 18:30:39,562 - __main__ - INFO - Pion 1 a lancé un 4.
+2024-12-27 18:30:39,562 - __main__ - DEBUG - Effet de la case: None
+2024-12-27 18:30:39,562 - __main__ - DEBUG - Passage au joueur suivant: 1
+2024-12-27 18:30:39,562 - __main__ - DEBUG - Tour du joueur: Pion 2
+2024-12-27 18:30:40,647 - __main__ - INFO - Action choisie par Pion 2: y
+2024-12-27 18:30:40,648 - __main__ - INFO - Pion 2 a lancé un 6.
+2024-12-27 18:30:40,648 - __main__ - DEBUG - Effet de la case: None
+2024-12-27 18:30:40,648 - __main__ - DEBUG - Passage au joueur suivant: 0
+2024-12-27 18:30:40,648 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:30:41,362 - __main__ - INFO - Action choisie par Pion 1: y
+2024-12-27 18:30:41,363 - __main__ - INFO - Pion 1 a lancé un 6.
+2024-12-27 18:30:41,363 - __main__ - DEBUG - Effet de la case: changement_map
+2024-12-27 18:31:40,444 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:31:40,444 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:31:40,444 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:31:40,445 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:31:42,965 - __main__ - INFO - Action choisie par Pion 1: y
+2024-12-27 18:31:42,965 - __main__ - INFO - Pion 1 a lancé un 2.
+2024-12-27 18:31:42,966 - __main__ - DEBUG - Effet de la case: None
+2024-12-27 18:31:42,966 - __main__ - DEBUG - Passage au joueur suivant: 1
+2024-12-27 18:31:42,966 - __main__ - DEBUG - Tour du joueur: Pion 2
+2024-12-27 18:31:43,439 - __main__ - INFO - Action choisie par Pion 2: y
+2024-12-27 18:31:43,439 - __main__ - INFO - Pion 2 a lancé un 1.
+2024-12-27 18:31:43,440 - __main__ - DEBUG - Effet de la case: None
+2024-12-27 18:31:43,440 - __main__ - DEBUG - Passage au joueur suivant: 0
+2024-12-27 18:31:43,440 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:31:43,845 - __main__ - INFO - Action choisie par Pion 1: y
+2024-12-27 18:31:43,846 - __main__ - INFO - Pion 1 a lancé un 2.
+2024-12-27 18:31:43,846 - __main__ - DEBUG - Effet de la case: None
+2024-12-27 18:31:43,846 - __main__ - DEBUG - Passage au joueur suivant: 1
+2024-12-27 18:31:43,846 - __main__ - DEBUG - Tour du joueur: Pion 2
+2024-12-27 18:31:44,121 - __main__ - INFO - Action choisie par Pion 2: y
+2024-12-27 18:31:44,121 - __main__ - INFO - Pion 2 a lancé un 2.
+2024-12-27 18:31:44,121 - __main__ - DEBUG - Effet de la case: None
+2024-12-27 18:31:44,122 - __main__ - DEBUG - Passage au joueur suivant: 0
+2024-12-27 18:31:44,122 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:31:44,430 - __main__ - INFO - Action choisie par Pion 1: y
+2024-12-27 18:31:44,430 - __main__ - INFO - Pion 1 a lancé un 3.
+2024-12-27 18:31:44,430 - __main__ - DEBUG - Effet de la case: None
+2024-12-27 18:31:44,430 - __main__ - DEBUG - Passage au joueur suivant: 1
+2024-12-27 18:31:44,430 - __main__ - DEBUG - Tour du joueur: Pion 2
+2024-12-27 18:31:45,130 - __main__ - INFO - Action choisie par Pion 2: y
+2024-12-27 18:31:45,130 - __main__ - INFO - Pion 2 a lancé un 6.
+2024-12-27 18:31:45,130 - __main__ - DEBUG - Effet de la case: None
+2024-12-27 18:31:45,130 - __main__ - DEBUG - Passage au joueur suivant: 0
+2024-12-27 18:31:45,130 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:31:45,532 - __main__ - INFO - Action choisie par Pion 1: y
+2024-12-27 18:31:45,533 - __main__ - INFO - Pion 1 a lancé un 3.
+2024-12-27 18:31:45,533 - __main__ - DEBUG - Effet de la case: changement_map
+2024-12-27 18:36:38,143 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:36:38,143 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:36:38,143 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:36:38,143 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:36:45,276 - __main__ - INFO - Action choisie par Pion 1: y
+2024-12-27 18:36:45,276 - __main__ - INFO - Pion 1 a lancé un 1.
+2024-12-27 18:36:45,276 - __main__ - DEBUG - Effet de la case: None
+2024-12-27 18:36:45,276 - __main__ - DEBUG - Passage au joueur suivant: 1
+2024-12-27 18:36:45,276 - __main__ - DEBUG - Tour du joueur: Pion 2
+2024-12-27 18:36:46,700 - __main__ - INFO - Action choisie par Pion 2: y
+2024-12-27 18:36:46,700 - __main__ - INFO - Pion 2 a lancé un 6.
+2024-12-27 18:36:46,700 - __main__ - DEBUG - Effet de la case: None
+2024-12-27 18:36:46,700 - __main__ - DEBUG - Passage au joueur suivant: 0
+2024-12-27 18:36:46,700 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:36:50,837 - __main__ - INFO - Action choisie par Pion 1: n
+2024-12-27 18:36:50,837 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:36:53,611 - __main__ - INFO - Action choisie par Pion 1: q
+2024-12-27 18:36:53,611 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.
+2024-12-27 18:37:18,287 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:37:18,287 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:37:18,287 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:37:18,288 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:37:26,000 - __main__ - INFO - Action choisie par Pion 1: q
+2024-12-27 18:37:26,001 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.
+2024-12-27 18:39:33,397 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:39:33,397 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:39:33,398 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:39:33,398 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:39:59,188 - __main__ - INFO - Action choisie par Pion 1: q
+2024-12-27 18:39:59,189 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.
+2024-12-27 18:40:03,292 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:40:03,292 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:40:03,293 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:40:03,293 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:40:21,092 - __main__ - INFO - Action choisie par Pion 1: q
+2024-12-27 18:40:21,092 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.
+2024-12-27 18:41:11,831 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:41:11,836 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:41:11,836 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:41:11,836 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:41:59,346 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:41:59,346 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:41:59,346 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:41:59,347 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:42:14,316 - __main__ - INFO - Action choisie par Pion 1: y
+2024-12-27 18:42:14,317 - __main__ - INFO - Pion 1 a lancé un 2.
+2024-12-27 18:42:14,317 - __main__ - DEBUG - Effet de la case: None
+2024-12-27 18:42:14,317 - __main__ - DEBUG - Passage au joueur suivant: 1
+2024-12-27 18:42:14,317 - __main__ - DEBUG - Tour du joueur: Pion 2
+2024-12-27 18:42:15,618 - __main__ - INFO - Action choisie par Pion 2: y
+2024-12-27 18:42:15,619 - __main__ - INFO - Pion 2 a lancé un 1.
+2024-12-27 18:42:15,619 - __main__ - DEBUG - Effet de la case: None
+2024-12-27 18:42:15,619 - __main__ - DEBUG - Passage au joueur suivant: 0
+2024-12-27 18:42:15,619 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:42:16,635 - __main__ - INFO - Action choisie par Pion 1: q
+2024-12-27 18:42:16,635 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.
+2024-12-27 18:42:19,812 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:42:19,812 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:42:19,813 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:42:19,813 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:42:23,650 - __main__ - INFO - Action choisie par Pion 1: q
+2024-12-27 18:42:23,650 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.
+2024-12-27 18:42:27,412 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:42:27,412 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:42:27,412 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:42:27,412 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:44:30,255 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:44:30,258 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:44:30,259 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:44:30,260 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:47:02,798 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:47:02,798 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:47:02,798 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:47:02,798 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:47:05,096 - __main__ - INFO - Action choisie par Pion 1: q
+2024-12-27 18:47:05,097 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.
+2024-12-27 18:47:51,129 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:47:51,129 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:47:51,130 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:47:51,130 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:48:30,464 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:48:30,464 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:48:30,464 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:48:30,464 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:48:34,906 - __main__ - INFO - Action choisie par Pion 1: q
+2024-12-27 18:48:34,906 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.
+2024-12-27 18:49:20,798 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:49:20,798 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:49:20,799 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:49:20,799 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:49:25,159 - __main__ - INFO - Action choisie par Pion 1: q
+2024-12-27 18:49:25,159 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.
+2024-12-27 18:53:47,815 - Démarrage du conteneur Docker.
+2024-12-27 18:54:08,741 - Arrêt du conteneur Docker.
+2024-12-27 18:54:24,282 - Démarrage du conteneur Docker.
+2024-12-27 18:54:40,773 - Arrêt du conteneur Docker par l'utilisateur.
+2024-12-27 18:54:45,455 - Démarrage du conteneur Docker.
+2024-12-27 18:54:53,295 - Arrêt du conteneur Docker par l'utilisateur.
+2024-12-27 18:57:13,486 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:57:13,486 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:57:13,486 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:57:13,486 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:57:38,287 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:57:38,287 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:57:38,288 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:57:38,289 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:57:46,639 - __main__ - INFO - Action choisie par Pion 1: n
+2024-12-27 18:57:46,640 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:57:48,252 - __main__ - INFO - Action choisie par Pion 1: n
+2024-12-27 18:57:48,252 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:57:49,465 - __main__ - INFO - Action choisie par Pion 1: y
+2024-12-27 18:57:49,465 - __main__ - INFO - Pion 1 a lancé un 6.
+2024-12-27 18:57:49,466 - __main__ - DEBUG - Effet de la case: None
+2024-12-27 18:57:49,466 - __main__ - DEBUG - Passage au joueur suivant: 1
+2024-12-27 18:57:49,466 - __main__ - DEBUG - Tour du joueur: Pion 2
+2024-12-27 18:57:50,934 - __main__ - INFO - Action choisie par Pion 2: q
+2024-12-27 18:57:50,934 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.
+2024-12-27 18:58:30,564 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 18:58:30,564 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 18:58:30,564 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 18:58:30,565 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 18:59:00,506 - __main__ - INFO - Action choisie par Pion 1: q
+2024-12-27 18:59:00,506 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.
+2024-12-27 18:59:28,588 - Démarrage du conteneur Docker.
+2024-12-27 18:59:52,127 - Arrêt du conteneur Docker par l'utilisateur.
+2024-12-27 18:59:55,978 - Démarrage du conteneur Docker.
+2024-12-27 19:00:04,218 - Arrêt du conteneur Docker par l'utilisateur.
+2024-12-27 19:02:04,281 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 19:02:04,281 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 19:02:04,281 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 19:02:04,282 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 19:02:24,132 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 19:02:24,132 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 19:02:24,132 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 19:02:24,132 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 19:02:26,524 - __main__ - INFO - Action choisie par Pion 1: q
+2024-12-27 19:02:26,524 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.
+2024-12-27 19:02:33,251 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 19:02:33,251 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 19:02:33,251 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 19:02:33,251 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 19:02:38,616 - __main__ - INFO - Action choisie par Pion 1: n
+2024-12-27 19:02:38,616 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 19:02:40,691 - __main__ - INFO - Action choisie par Pion 1: q
+2024-12-27 19:02:40,692 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.
+2024-12-27 21:32:59,487 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 21:32:59,498 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 21:32:59,498 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 21:32:59,498 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 21:33:02,083 - __main__ - INFO - Action choisie par Pion 1: q
+2024-12-27 21:33:02,084 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.

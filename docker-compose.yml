@@ -1,0 +1,22 @@
+services:
+  app:
+    build: .
+    container_name: python_app
+    stdin_open: true
+    tty: true
+    command: bash -c "echo 'Démarrage du conteneur' >> /app/src/logs/container.log && python src/app/main.py && echo 'Arrêt du conteneur' >> /app/src/logs/container.log"
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./src/logs:/app/src/logs
+      - ./src:/app/src
+
+  dev:
+    build: .
+    container_name: python_dev
+    volumes:
+      - .:/app
+      - ./src/logs:/app/src/logs
+    stdin_open: true
+    tty: true
+    command: tail -f /dev/null
