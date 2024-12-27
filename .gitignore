@@ -9,6 +9,7 @@ __pycache__/
 # Environnements virtuels
 .env/
 .venv/
+.venc/
 
 # Outils
 poetry.lock
