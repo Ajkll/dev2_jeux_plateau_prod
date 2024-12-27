@@ -41,11 +41,11 @@ jobs:
           name: coverage-report
           path: htmlcov/
 
-        - name: Run black for code formatting
+      - name: Run black for code formatting
         run: |
           source venv/bin/activate
           black --check --diff . --exclude "venv|venc|\.git|__pycache__"
-        
+
       - name: Run flake8 for PEP8 compliance
         run: |
           source venv/bin/activate
