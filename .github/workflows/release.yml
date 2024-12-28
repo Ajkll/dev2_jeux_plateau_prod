@@ -34,12 +34,13 @@ jobs:
       # Étape 5 : Publier le package sur PyPI
       - name: Publish to PyPI
         env:
-          TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
-          TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+          TWINE_USERNAME: __TOKEN__
+          TWINE_PASSWORD: ${{ secrets._TOKEN_ }}
+
         run: |
           python -m twine upload dist/* --skip-existing --verbose
 
-      # Étape 6 : Créer une release GitHub
+      # Étape 6 : Créer une release
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
