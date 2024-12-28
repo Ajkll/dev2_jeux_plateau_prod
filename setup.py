@@ -9,10 +9,10 @@ setup(
     use_scm_version=True,
     packages=find_packages(where="src"),
     package_dir={"": "src"},
-    install_requires=[],  
+    install_requires=[],
     description="Bibliothèque Python pour des jeux de plateau",
-    long_description=long_description,  
-    long_description_content_type="text/markdown",  
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author="Alex",
     author_email="Alexisjacobs@protonmail.com",
     url="https://github.com/Ajkll/dev2_jeux_plateau_prod",
@@ -24,7 +24,7 @@ setup(
     python_requires=">=3.6",
     entry_points={
         "console_scripts": [
-            "dev2=app.main:main", 
+            "dev2=app.main:main",
         ]
     },
 )
