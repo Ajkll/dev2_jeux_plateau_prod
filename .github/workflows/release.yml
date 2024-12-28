@@ -3,44 +3,43 @@ name: Release Workflow
 on:
   push:
     tags:
-      - "v*.*.*" # Ce déclencheur s'active lorsqu'un tag correspondant au format v1.0.0 est créé
+      - "v*.*.*" # s'active lorsqu'un tag est crer
 
 jobs:
   release:
     runs-on: ubuntu-latest
 
     steps:
-      # Étape 1 : Récupérer le code source
+      # recupérer le code source
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Étape 2 : Configurer Python
+      # Configurer Python dans le pipeline
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
 
-      # Étape 3 : Mettre à jour pip et installer les outils nécessaires
+      # mettre à jour pip et installer les outils nécessaires
       - name: Install build tools
         run: |
           python -m pip install --upgrade pip
           pip install setuptools wheel build twine
 
-      # Étape 4 : Construire le package
+      # construire le package complet de notre project pour l'inclure dans Pypi
       - name: Build package
         run: |
           python -m build
 
-      # Étape 5 : Publier le package sur PyPI
+      # publier le package sur PyPI (nous avons choisi de ne publier que sur le PyPi 'un seul membre dans le groupe)
       - name: Publish to PyPI
         env:
           TWINE_USERNAME: "__token__"
-          TWINE_PASSWORD: "${{ secrets.__TOKEN__ }}" # Remplace par le vrai nom du secret que tu as défini
-
+          TWINE_PASSWORD: "${{ secrets.__TOKEN__ }}"
         run: |
           python -m twine upload dist/* --skip-existing --verbose
 
-      # Étape 6 : Créer une release
+      # creation de la nouvelle release accesible ici donc ici : https://github.com/Ajkll/dev2_jeux_plateau_prod/releases
       - name: Create release
         uses: ncipollo/release-action@v1
         with:

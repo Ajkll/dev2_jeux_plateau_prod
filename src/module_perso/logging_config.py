@@ -1,44 +1,37 @@
 import logging
+from logging.handlers import RotatingFileHandler
 import os
 
-# Chemin pour le fichier de log
+# chemin pour le fichier de log
 LOG_DIR = os.path.join(os.path.dirname(__file__), "../logs")
-os.makedirs(LOG_DIR, exist_ok=True)  # Crée le répertoire des logs s'il n'existe pas
+os.makedirs(LOG_DIR, exist_ok=True)  # si il n'est pas la on le crer
 LOG_FILE = os.path.join(LOG_DIR, "application.log")
 
+# +- 60 KB max
+MAX_LOG_SIZE = 60 * 1024
+BACKUP_COUNT = 2
+
 # Configuration globale du logging
+handler = RotatingFileHandler(
+    LOG_FILE, mode="a", maxBytes=MAX_LOG_SIZE, backupCount=BACKUP_COUNT
+)
+formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+handler.setFormatter(formatter)
+
 logging.basicConfig(
-    level=logging.DEBUG,  # Niveau global de logging
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler(
-            LOG_FILE, mode="a"
-        )  # Enregistre les logs uniquement dans un fichier
-    ],
+    level=logging.DEBUG,
+    handlers=[handler],
 )
 
 
 def get_logger(name):
-    """
-    Renvoie un logger configuré pour l'application.
 
-    :param name: Nom du logger (en général, __name__)
-    :return: Instance de logger
-    """
     logger = logging.getLogger(name)
-    if not logger.hasHandlers():  # Vérifie que le logger n'a pas déjà de handlers
-        file_handler = logging.FileHandler(LOG_FILE, mode="a")
-
-        # Format du log
-        formatter = logging.Formatter(
-            "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    if not logger.hasHandlers():
+        rotating_handler = RotatingFileHandler(
+            LOG_FILE, mode="a", maxBytes=MAX_LOG_SIZE, backupCount=BACKUP_COUNT
         )
-        file_handler.setFormatter(formatter)
-
-        # Ajoute les handlers au logger
-        logger.addHandler(file_handler)
-
-        # Définit le niveau du logger
+        rotating_handler.setFormatter(formatter)
+        logger.addHandler(rotating_handler)
         logger.setLevel(logging.DEBUG)
-
     return logger

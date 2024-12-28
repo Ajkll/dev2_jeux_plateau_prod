@@ -12,5 +12,8 @@ class Pion:
     def est_sur_case(self, case):
         return self.position == case
 
+    def reset(self):
+        self.position = 0
+
     def __str__(self):
         return f"{self.nom}, vous êtes à la position {self.position}."

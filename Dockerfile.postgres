@@ -1,0 +1,14 @@
+FROM python:3.12-slim
+
+# Définir le répertoire de travail
+WORKDIR /app
+
+# Copier les fichiers dans l'image Docker
+COPY requirements.txt .
+COPY src /app/src
+
+# Installer les dépendances
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Définir la commande de démarrage par défaut
+CMD ["python", "src/app/main.py"]

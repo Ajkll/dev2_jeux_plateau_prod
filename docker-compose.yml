@@ -10,13 +10,21 @@ services:
     volumes:
       - ./src/logs:/app/src/logs
       - ./src:/app/src
+    depends_on:
+      - db
 
-  dev:
-    build: .
-    container_name: python_dev
+  db:
+    image: postgres:15
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: jeu_scores
+    ports:
+      - "5432:5432"
     volumes:
-      - .:/app
-      - ./src/logs:/app/src/logs
-    stdin_open: true
-    tty: true
-    command: tail -f /dev/null
+      - postgres_data:/var/lib/postgresql/data
+      - ./initialize_db.sql:/docker-entrypoint-initdb.d/initialize_db.sql:ro
+
+volumes:
+  postgres_data:

@@ -1,7 +1,7 @@
 import unittest
 from src.module_perso.pion import (
     Pion,
-)  # Assurez-vous que le fichier contenant la classe Pion est nommé `pion.py`
+)
 
 
 class TestPion(unittest.TestCase):

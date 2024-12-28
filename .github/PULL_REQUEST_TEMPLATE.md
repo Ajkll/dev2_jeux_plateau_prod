@@ -11,11 +11,11 @@ Merci de décrire brièvement la fonctionnalité ajoutée ou le bug corrigé.
 
 ## Checklist
 
-- [ ] J'ai testé le code localement.
-- [ ] J'ai mis à jour la documentation si nécessaire.
-- [ ] Les tests passent avec succès.
-- [ ] La fonctionnalité respecte les conventions du projet.
+- [ ] code tester localement.
+- [ ] documentation a jour.
+- [ ] validations des tests.
+- [ ] fonctionnalité decite et demander dans le project , ce referer au user story , issue et epic demander par le client accesible ici https://github.com/users/Ajkll/projects/2.
 
 ## Liens ou issues associées
 
-Lien vers l'issue ou explications supplémentaires ici.
+Lien vers l'issue ou explications supplémentaires a completer ici.
