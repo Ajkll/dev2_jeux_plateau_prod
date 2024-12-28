@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="dev_2",
-    version="0.1.0",
+    use_scm_version=True,
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     install_requires=[],  

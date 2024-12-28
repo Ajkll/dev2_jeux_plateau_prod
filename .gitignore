@@ -15,3 +15,5 @@ venc/
 
 # Outils
 poetry.lock
+*.egg-info
+
