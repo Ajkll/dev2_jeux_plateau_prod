@@ -34,8 +34,8 @@ jobs:
       # Étape 5 : Publier le package sur PyPI
       - name: Publish to PyPI
         env:
-          TWINE_USERNAME: __TOKEN__
-          TWINE_PASSWORD: ${{ secrets._TOKEN_ }}
+          TWINE_USERNAME: "__token__"
+          TWINE_PASSWORD: "${{ secrets.__TOKEN__ }}" # Remplace par le vrai nom du secret que tu as défini
 
         run: |
           python -m twine upload dist/* --skip-existing --verbose
