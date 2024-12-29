@@ -1,10 +1,12 @@
 import os
 import time
 
+
 def un_deux_trois(*messages, delay=2):
     for message in messages:
         print(f"Annonce : {message}")
         time.sleep(delay)
+
 
 class Affichage:
     @staticmethod
@@ -21,7 +23,7 @@ class Affichage:
 
     @staticmethod
     def afficher_infos_tour(joueur_actuel, joueurs, plateau):
-        os.system('cls' if os.name == 'nt' else 'clear')
+        os.system("cls" if os.name == "nt" else "clear")
         print(f"Tour de {joueur_actuel.pseudo}.")
         print("Positions actuelles des joueurs :")
         for joueur in joueurs:

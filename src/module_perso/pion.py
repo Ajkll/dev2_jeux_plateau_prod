@@ -4,7 +4,7 @@ class Pion:
         self.position = 0
 
     def deplacer(self, pas):
-        self.position = max(0, self.position + pas)  
+        self.position = max(0, self.position + pas)
 
     def reset(self):
         self.position = 0

@@ -3,16 +3,31 @@ from module_perso.pion import Pion
 from module_perso.decorateurs import log_result
 import re
 
+
 class Jeu:
     def __init__(self, nom_joueurs, plateau=None):
         self.plateau = plateau
         self.pions = [Pion(nom) for nom in nom_joueurs]
         self.joueur_actuel = 0
-        self.case_victoire = self.plateau.taille - 1  # Automatique avec la taille du plateau.
+        self.case_victoire = (
+            self.plateau.taille - 1
+        )  # Automatique avec la taille du plateau.
         self.questions = [
-            {"question": "Quelle est la capitale de la Belgique ?", "options": ["1. Bruxelles", "2. Londres", "3. Berlin"], "reponse": 1},
-            {"question": "Combien font 6 x 6 ?", "options": ["1. 6", "2. 36", "3. 12"], "reponse": 2},
-            {"question": "Comment s'appelle le local TI ?", "options": ["1. openLab", "2. L221", "3. Ephec Ti"], "reponse": 1},
+            {
+                "question": "Quelle est la capitale de la Belgique ?",
+                "options": ["1. Bruxelles", "2. Londres", "3. Berlin"],
+                "reponse": 1,
+            },
+            {
+                "question": "Combien font 6 x 6 ?",
+                "options": ["1. 6", "2. 36", "3. 12"],
+                "reponse": 2,
+            },
+            {
+                "question": "Comment s'appelle le local TI ?",
+                "options": ["1. openLab", "2. L221", "3. Ephec Ti"],
+                "reponse": 1,
+            },
         ]
         self.compteur_cascade = 0
         self.limite_cascade = 5
