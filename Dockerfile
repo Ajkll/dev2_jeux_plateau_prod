@@ -1,17 +1,24 @@
-# Utiliser une image de base Python
+# Utiliser une image de base Python légère
 FROM python:3.9-slim
 
-# Installer Git
-RUN apt-get update && apt-get install -y git && apt-get clean
+# Installer les dépendances système nécessaires
+RUN apt-get update && apt-get install -y \
+    git \
+    libpq-dev \
+    gcc \
+    && apt-get clean
 
 # Définir le répertoire de travail
 WORKDIR /app
 
-# Copier tous les fichiers nécessaires dans le conteneur
+# Copier les fichiers nécessaires
 COPY . /app
 
-# Installer les dépendances et le package local
-RUN pip install --no-cache-dir .
+# Ajouter `src` au PYTHONPATH
+ENV PYTHONPATH="/app/src"
 
-# Commande par défaut pour exécuter ton application
-CMD ["python", "-m", "app"]
+# Installer les dépendances Python
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Commande par défaut pour exécuter l'application
+CMD ["python", "src/app/main.py"]

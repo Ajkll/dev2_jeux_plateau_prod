@@ -1,532 +1,334 @@
-2024-12-28 15:54:05,943 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 15:54:16,241 - __main__ - DEBUG - Joueurs initiaux: ['fefef', 'ygtg'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
-2024-12-28 15:54:16,241 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 15:54:16,242 - __main__ - DEBUG - Tour du joueur : fefef
-2024-12-28 15:54:17,746 - __main__ - INFO - Action choisie par fefef : y
-2024-12-28 15:54:17,746 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 15:54:17,747 - __main__ - INFO - fefef a lancé un 4.
-2024-12-28 15:54:17,747 - __main__ - DEBUG - Effet de la case: None
-2024-12-28 15:54:17,747 - __main__ - DEBUG - Passage au joueur suivant : 1
-2024-12-28 15:54:17,747 - __main__ - DEBUG - Tour du joueur : ygtg
-2024-12-28 15:54:18,946 - __main__ - INFO - Action choisie par ygtg : y
-2024-12-28 15:54:18,946 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 15:54:18,946 - __main__ - INFO - ygtg a lancé un 6.
-2024-12-28 15:54:18,946 - __main__ - DEBUG - Effet de la case: None
-2024-12-28 15:54:18,946 - __main__ - DEBUG - Passage au joueur suivant : 0
-2024-12-28 15:54:18,946 - __main__ - DEBUG - Tour du joueur : fefef
-2024-12-28 15:54:20,064 - __main__ - INFO - Action choisie par fefef : y
-2024-12-28 15:54:20,064 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 15:54:20,064 - __main__ - INFO - fefef a lancé un 4.
-2024-12-28 15:54:20,064 - __main__ - DEBUG - Effet de la case: question
-2024-12-28 15:54:20,065 - __main__ - DEBUG - Question posée: Quelle est la capitale de la Belgique ?
-2024-12-28 15:54:23,716 - __main__ - INFO - Réponse donnée: 2, Correct: Non
-2024-12-28 15:54:23,716 - __main__ - INFO - fefef recule de 1 case.
-2024-12-28 15:54:23,717 - __main__ - DEBUG - Passage au joueur suivant : 1
-2024-12-28 15:54:23,717 - __main__ - DEBUG - Tour du joueur : ygtg
-2024-12-28 15:54:29,253 - __main__ - INFO - Action choisie par ygtg : y
-2024-12-28 15:54:29,253 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 15:54:29,253 - __main__ - INFO - ygtg a lancé un 2.
-2024-12-28 15:54:29,253 - __main__ - DEBUG - Effet de la case: question
-2024-12-28 15:54:29,254 - __main__ - DEBUG - Question posée: Quelle est la capitale de la Belgique ?
-2024-12-28 15:54:31,394 - __main__ - INFO - Réponse donnée: 2, Correct: Non
-2024-12-28 15:54:31,395 - __main__ - INFO - ygtg recule de 1 case.
-2024-12-28 15:54:31,395 - __main__ - DEBUG - Passage au joueur suivant : 0
-2024-12-28 15:54:31,395 - __main__ - DEBUG - Tour du joueur : fefef
-2024-12-28 15:54:32,673 - __main__ - INFO - Action choisie par fefef : y
-2024-12-28 15:54:32,674 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 15:54:32,674 - __main__ - INFO - fefef a lancé un 2.
-2024-12-28 15:54:32,674 - __main__ - DEBUG - Effet de la case: None
-2024-12-28 15:54:32,674 - __main__ - DEBUG - Passage au joueur suivant : 1
-2024-12-28 15:54:32,675 - __main__ - DEBUG - Tour du joueur : ygtg
-2024-12-28 15:54:33,632 - __main__ - INFO - Action choisie par ygtg : y
-2024-12-28 15:54:33,632 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 15:54:33,633 - __main__ - INFO - ygtg a lancé un 3.
-2024-12-28 15:54:33,633 - __main__ - DEBUG - Effet de la case: changement_map
-2024-12-28 15:54:33,633 - __main__ - INFO - Changement de plateau pour ygtg.
-2024-12-28 15:54:33,633 - __main__ - DEBUG - Passage au joueur suivant : 0
-2024-12-28 15:54:33,633 - __main__ - DEBUG - Tour du joueur : fefef
-2024-12-28 15:54:40,934 - __main__ - INFO - Action choisie par fefef : y
-2024-12-28 15:54:40,934 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 15:54:40,935 - __main__ - INFO - fefef a lancé un 1.
-2024-12-28 15:54:40,935 - __main__ - DEBUG - Effet de la case: None
-2024-12-28 15:54:40,935 - __main__ - DEBUG - Passage au joueur suivant : 1
-2024-12-28 15:54:40,935 - __main__ - DEBUG - Tour du joueur : ygtg
-2024-12-28 15:54:42,050 - __main__ - INFO - Action choisie par ygtg : y
-2024-12-28 15:54:42,050 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 15:54:42,050 - __main__ - INFO - ygtg a lancé un 6.
-2024-12-28 15:54:42,051 - __main__ - DEBUG - Effet de la case: None
-2024-12-28 15:54:42,051 - __main__ - DEBUG - Passage au joueur suivant : 0
-2024-12-28 15:54:42,051 - __main__ - DEBUG - Tour du joueur : fefef
-2024-12-28 15:54:42,706 - __main__ - INFO - Action choisie par fefef : y
-2024-12-28 15:54:42,706 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 15:54:42,706 - __main__ - INFO - fefef a lancé un 6.
-2024-12-28 15:54:42,707 - __main__ - DEBUG - Effet de la case: None
-2024-12-28 15:54:42,707 - __main__ - DEBUG - Passage au joueur suivant : 1
-2024-12-28 15:54:42,707 - __main__ - DEBUG - Tour du joueur : ygtg
-2024-12-28 15:54:43,379 - __main__ - INFO - Action choisie par ygtg : y
-2024-12-28 15:54:43,379 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 15:54:43,379 - __main__ - INFO - ygtg a lancé un 3.
-2024-12-28 15:54:43,380 - __main__ - DEBUG - Effet de la case: None
-2024-12-28 15:54:43,380 - __main__ - DEBUG - Passage au joueur suivant : 0
-2024-12-28 15:54:43,380 - __main__ - DEBUG - Tour du joueur : fefef
-2024-12-28 15:54:44,161 - __main__ - INFO - Action choisie par fefef : y
-2024-12-28 15:54:44,161 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 15:54:44,161 - __main__ - INFO - fefef a lancé un 4.
-2024-12-28 15:54:44,161 - __main__ - DEBUG - Effet de la case: None
-2024-12-28 15:54:44,163 - __main__ - INFO - fefef a gagné la partie !
-2024-12-28 16:07:46,692 - __main__ - INFO - Choix de rejouer : n
-2024-12-28 16:07:46,708 - __main__ - INFO - Fin de la session de jeu. Affichage des scores finaux.
-2024-12-28 16:07:46,710 - __main__ - INFO - Fin de la session de jeu.
-2024-12-28 16:08:01,662 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 16:08:09,371 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:21:28,336 - __main__ - WARNING - Le joueur a stoper la session
-2024-12-28 16:21:30,936 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 16:21:34,967 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:21:50,660 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 16:21:52,579 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 16:21:53,166 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:21:54,083 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 16:24:42,524 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-28 16:25:26,211 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 16:25:32,162 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:25:33,390 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 16:25:33,978 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 16:25:34,420 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 16:25:36,922 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 16:25:36,922 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:25:37,678 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 16:25:38,054 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:25:38,411 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 16:25:38,770 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 16:25:39,097 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:25:39,473 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 16:25:39,844 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 16:25:41,085 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 16:25:41,085 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:25:41,817 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:25:42,123 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 16:25:42,436 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 16:25:42,765 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:25:43,353 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 16:25:44,000 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:25:44,672 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 16:25:45,517 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 16:25:45,933 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 16:25:46,309 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 16:25:46,719 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 16:25:47,198 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 16:25:47,809 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 16:25:48,641 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:25:50,770 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 16:25:50,770 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:25:51,374 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 16:25:51,986 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 16:25:52,568 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 16:25:53,736 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 16:25:53,737 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:25:54,318 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 16:25:55,073 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 16:25:55,666 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 16:25:56,341 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:25:56,971 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 16:25:57,767 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 16:25:57,767 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:25:59,756 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 16:26:00,182 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 16:26:00,663 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 16:26:04,945 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 16:26:05,256 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 16:26:05,550 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 16:26:05,550 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:26:06,847 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 16:26:07,434 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 16:26:07,912 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:26:08,418 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 16:26:11,153 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 16:26:11,690 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 16:26:13,895 - __main__ - INFO - Choix de rejouer : n
-2024-12-28 16:26:13,896 - __main__ - INFO - Fermeture du jeu.
-2024-12-28 16:31:37,207 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 16:35:19,291 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 16:37:48,019 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 16:37:51,864 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:37:56,637 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 16:37:57,137 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 16:37:57,703 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 16:37:58,429 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:37:59,088 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 16:38:00,649 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 16:38:00,649 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:38:05,412 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 16:38:05,810 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 16:38:06,164 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 16:38:06,522 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 16:38:07,018 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 16:38:07,510 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 16:38:08,072 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 16:38:09,460 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 16:38:09,460 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:38:14,076 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-28 16:38:16,354 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 16:38:22,385 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:42:38,171 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:42:38,468 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:42:38,889 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 16:42:39,260 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 16:42:40,009 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 16:45:35,732 - __main__ - INFO - Choix de rejouer : n
-2024-12-28 16:45:35,732 - __main__ - INFO - Fermeture du jeu.
-2024-12-28 16:45:39,395 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 16:45:44,950 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:45:56,099 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 16:45:56,418 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 16:45:56,862 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 16:46:03,574 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:46:06,733 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:46:08,661 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 16:46:08,662 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:46:14,394 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 16:46:15,028 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 16:46:18,576 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 16:46:20,965 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 16:46:21,954 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 16:46:22,959 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:46:24,058 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:46:25,085 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 16:46:26,601 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 16:46:41,796 - __main__ - INFO - Choix de rejouer : n
-2024-12-28 16:46:41,796 - __main__ - INFO - Fermeture du jeu.
-2024-12-28 16:57:51,040 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 16:58:18,438 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 16:58:44,814 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 16:59:13,481 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 16:59:23,864 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 16:59:47,090 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 17:00:02,690 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 17:00:08,610 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 17:00:09,561 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 17:00:09,561 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 17:00:11,740 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-28 17:01:21,347 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 17:01:28,875 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 17:09:34,482 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-28 17:09:37,173 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 17:09:42,699 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 17:11:48,318 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 17:11:55,728 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 17:12:00,169 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 17:12:13,295 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 17:12:28,878 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 17:12:37,655 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 17:13:01,608 - __main__ - INFO - Choix de rejouer : n
-2024-12-28 17:13:01,608 - __main__ - INFO - Fermeture du jeu.
-2024-12-28 17:22:38,869 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 17:23:16,584 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 17:23:26,392 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 17:23:30,896 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 17:23:35,528 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 17:23:42,516 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 17:23:43,811 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 17:23:44,693 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 17:23:48,022 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 17:23:48,487 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 17:25:32,481 - __main__ - INFO - Choix de rejouer : n
-2024-12-28 17:25:32,483 - __main__ - INFO - Fermeture du jeu.
-2024-12-28 17:43:14,532 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 17:46:19,176 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 17:46:24,374 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 17:46:26,792 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 17:46:27,251 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 17:46:27,691 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 17:46:28,755 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-28 17:55:49,285 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 17:57:10,767 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 17:57:59,237 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 17:58:04,998 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-28 17:59:49,146 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 17:59:52,645 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 17:59:55,981 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 17:59:57,039 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 18:00:01,066 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 18:00:03,993 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 18:00:04,348 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 18:00:06,003 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:00:06,003 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:00:06,672 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 18:00:07,239 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:00:07,239 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:00:07,797 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 18:00:08,380 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:00:08,380 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:00:08,986 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 18:00:09,649 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:00:09,649 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:00:11,423 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 18:00:13,756 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:00:13,756 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:00:14,920 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 18:00:17,124 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:00:17,124 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:00:19,183 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 18:00:21,425 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:00:21,425 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:00:23,330 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 18:00:24,181 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:00:24,182 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:00:24,791 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 18:00:33,061 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:00:33,061 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:00:33,753 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 18:00:38,820 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:00:38,820 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:00:40,356 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 18:00:41,761 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:00:41,762 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:00:44,150 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 18:00:48,532 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:00:48,532 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:00:50,038 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 18:00:51,993 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:00:51,993 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:00:59,600 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 18:01:19,373 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:01:19,374 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:01:21,266 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 18:01:42,886 - __main__ - INFO - Choix de rejouer : n
-2024-12-28 18:01:42,902 - __main__ - INFO - Fermeture du jeu.
-2024-12-28 18:02:41,271 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 18:02:51,931 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:02:53,294 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 18:02:55,867 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 18:02:57,555 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 18:02:58,828 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 18:03:01,183 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 18:03:02,582 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 18:03:05,711 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 18:03:08,080 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 18:03:11,608 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:03:11,608 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:03:12,733 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 18:03:13,771 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 18:06:41,935 - __main__ - INFO - Choix de rejouer : n
-2024-12-28 18:06:41,971 - __main__ - INFO - Fermeture du jeu.
-2024-12-28 18:16:33,943 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 18:16:44,048 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:16:47,857 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 18:16:59,328 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 18:17:04,395 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 18:17:09,476 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 18:17:10,985 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 18:17:12,236 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 18:17:13,768 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 18:17:46,895 - __main__ - INFO - Choix de rejouer : n
-2024-12-28 18:17:46,926 - __main__ - INFO - Fermeture du jeu.
-2024-12-28 18:18:52,643 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 18:19:01,716 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:19:13,519 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 18:19:14,659 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 18:19:20,473 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 18:19:21,367 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 18:19:30,324 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 18:19:32,135 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:19:32,136 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:19:33,297 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 18:19:36,895 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:19:36,896 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:19:37,895 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 18:19:39,445 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:19:39,445 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:19:40,118 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 18:19:41,143 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:19:41,143 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:19:41,817 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 18:19:42,754 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:19:42,755 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:19:43,468 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 18:19:46,140 - __main__ - INFO - Choix de rejouer : n
-2024-12-28 18:19:46,160 - __main__ - INFO - Fermeture du jeu.
-2024-12-28 18:22:45,760 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 18:22:51,816 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:22:59,207 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-28 18:24:29,226 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 18:24:35,537 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:24:37,824 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 18:24:38,386 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 18:24:38,915 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 18:24:42,323 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 18:24:49,585 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 18:25:00,024 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 18:25:10,357 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 18:25:37,116 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 18:25:37,116 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 18:25:38,442 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 19:59:26,119 - __main__ - INFO - Choix de rejouer : q
-2024-12-28 19:59:26,160 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 19:59:27,638 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-28 19:59:49,426 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 19:59:57,339 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 19:59:59,534 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 20:00:00,266 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:00:11,315 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 20:00:15,681 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 20:00:19,341 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:00:22,110 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 20:00:24,127 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 20:00:25,449 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:00:28,438 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 20:00:28,439 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:00:29,423 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 20:00:41,704 - __main__ - INFO - Choix de rejouer : q
-2024-12-28 20:00:41,704 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:00:48,445 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-28 20:00:53,028 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 20:00:57,936 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:01:01,375 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:01:16,463 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-28 20:01:20,379 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 20:01:24,437 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:01:25,925 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:01:26,412 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 20:01:29,804 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:01:54,943 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 20:03:00,703 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 20:03:00,703 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:03:05,666 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 20:03:08,937 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:03:48,586 - __main__ - INFO - Choix de rejouer : q
-2024-12-28 20:03:48,587 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:04:04,986 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:04:17,785 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:04:34,014 - __main__ - INFO - Choix de rejouer : q
-2024-12-28 20:04:34,014 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:04:35,727 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-28 20:18:20,171 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 20:18:26,787 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:22:24,089 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 20:22:27,768 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:22:46,620 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:26:57,960 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 20:27:00,993 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:27:02,550 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 20:28:53,789 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 20:28:57,411 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:28:58,756 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 20:29:21,549 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 20:30:42,368 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 20:30:45,685 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:30:46,698 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 20:30:51,662 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:30:52,775 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:30:53,629 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 20:30:54,567 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 20:31:10,563 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 20:31:10,564 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:31:14,256 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:31:25,289 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:31:26,529 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 20:31:27,319 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 20:31:31,345 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 20:31:34,576 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 20:31:34,576 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:31:36,449 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 20:31:37,994 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:31:39,245 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 20:32:01,441 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 20:32:11,025 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 20:32:16,370 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 20:32:16,371 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:32:19,131 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 20:32:23,689 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 20:32:26,863 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:32:40,609 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 20:32:47,190 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 20:32:47,888 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 20:33:05,612 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 20:33:05,612 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:33:06,414 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 20:33:07,274 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 20:33:07,851 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 20:33:08,318 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:33:08,839 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 20:33:10,415 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:33:11,636 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:33:13,021 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:33:20,987 - __main__ - INFO - Choix de rejouer : q
-2024-12-28 20:33:20,988 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:33:29,746 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-28 20:35:01,879 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 20:35:06,597 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:35:08,735 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:35:10,152 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:35:10,788 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:35:11,308 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 20:35:11,808 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 20:35:16,792 - __main__ - INFO - Choix de rejouer : q
-2024-12-28 20:35:16,895 - __main__ - INFO - Fermeture du jeu.
-2024-12-28 20:37:04,450 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 20:37:07,442 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:37:11,285 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 20:37:12,045 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 20:37:13,550 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-28 20:37:15,814 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 20:37:18,869 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:37:21,854 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:37:22,657 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 20:37:23,988 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 20:37:24,989 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-28 20:37:27,224 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:37:37,035 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 20:37:37,035 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:38:08,200 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 20:38:13,976 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:38:16,535 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:38:17,805 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 20:38:18,648 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 20:38:23,231 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:38:24,134 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:38:25,068 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 20:38:56,316 - __main__ - INFO - Choix de rejouer : n
-2024-12-28 20:38:56,340 - __main__ - INFO - Fermeture du jeu.
-2024-12-28 20:51:11,045 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 20:51:18,961 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:51:21,429 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 20:51:22,103 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 20:51:22,533 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 20:51:32,140 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 20:51:32,140 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:51:32,875 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-28 20:51:33,913 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-28 20:51:34,727 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:51:35,429 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:51:36,060 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:51:37,515 - __main__ - INFO - Choix de rejouer : y
-2024-12-28 20:51:37,516 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 20:51:38,045 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:51:38,762 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:51:39,274 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-28 20:51:39,856 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:51:40,428 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-28 20:51:41,024 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:51:41,617 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-28 20:51:48,328 - __main__ - INFO - Choix de rejouer : n
-2024-12-28 20:51:48,505 - __main__ - INFO - Fermeture du jeu.
-2024-12-28 20:54:30,276 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 21:00:59,293 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 21:02:05,009 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 21:36:29,368 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-28 21:36:43,061 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-28 21:36:52,253 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-29 10:46:37,719 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 10:46:56,673 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 10:47:17,556 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 10:47:25,239 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 10:47:42,801 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 10:47:53,076 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 10:48:06,756 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 10:48:07,800 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 10:48:08,805 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 10:48:09,476 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 10:48:10,082 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 10:48:23,964 - __main__ - INFO - Choix de rejouer : n
-2024-12-29 10:48:23,988 - __main__ - INFO - Fermeture du jeu.
-2024-12-29 10:48:30,038 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 14:45:12,199 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 14:45:32,450 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 14:45:51,993 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 14:46:02,633 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 14:46:07,386 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:03:15,909 - __main__ - INFO - Choix de rejouer : n
+2024-12-29 15:03:16,028 - __main__ - INFO - Fermeture du jeu.
+2024-12-29 15:03:18,808 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 15:03:23,865 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:03:25,814 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:03:28,602 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:03:31,220 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:03:33,182 - __main__ - INFO - Choix de rejouer : y
+2024-12-29 15:03:33,182 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:03:34,897 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:03:38,129 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:03:42,412 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:03:43,466 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:03:44,257 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:03:45,439 - __main__ - INFO - Choix de rejouer : y
+2024-12-29 15:03:45,439 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:03:47,028 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:03:51,398 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:03:52,270 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:03:53,669 - __main__ - INFO - Choix de rejouer : y
+2024-12-29 15:03:53,669 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:03:54,888 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:03:55,615 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:03:57,904 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:03:58,678 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:03:59,381 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:04:00,555 - __main__ - INFO - Choix de rejouer : y
+2024-12-29 15:04:00,555 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:04:02,186 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:04:04,565 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:04:08,236 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:04:08,837 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:04:13,779 - __main__ - INFO - Choix de rejouer : y
+2024-12-29 15:04:13,779 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:05:03,358 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:05:09,646 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:05:10,110 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:05:10,466 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:05:10,832 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:05:11,778 - __main__ - INFO - Choix de rejouer : y
+2024-12-29 15:05:11,778 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:05:12,247 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:05:14,532 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:05:15,601 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:05:16,061 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:05:16,447 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:05:16,782 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:05:17,141 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:05:17,511 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:05:18,270 - __main__ - INFO - Choix de rejouer : y
+2024-12-29 15:05:18,271 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:05:18,826 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:05:20,998 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:05:21,398 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:05:21,778 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:05:22,154 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:05:22,550 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:05:23,350 - __main__ - INFO - Choix de rejouer : y
+2024-12-29 15:05:23,350 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:05:24,888 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:05:26,171 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:05:26,637 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:05:27,043 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:05:27,697 - __main__ - INFO - Choix de rejouer : y
+2024-12-29 15:05:27,698 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:05:28,749 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:17:03,079 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 15:17:07,288 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:17:08,495 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:17:08,848 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:17:09,177 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:17:09,511 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:17:09,809 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:17:10,138 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:17:11,192 - __main__ - INFO - Choix de rejouer : y
+2024-12-29 15:17:11,193 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:17:11,507 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:17:11,860 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:17:12,162 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:19:10,452 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 15:19:15,618 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:19:16,640 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:19:17,028 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:19:17,358 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:19:17,658 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:19:17,992 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:19:18,307 - __main__ - INFO - Choix de rejouer : y
+2024-12-29 15:19:18,308 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:19:18,779 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:19:25,668 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:19:28,963 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:19:30,990 - __main__ - INFO - Choix de rejouer : y
+2024-12-29 15:19:30,991 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:19:32,418 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:19:35,034 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:19:37,691 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:19:40,303 - __main__ - INFO - Choix de rejouer : y
+2024-12-29 15:19:40,304 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:19:40,993 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:19:43,769 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:19:44,354 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:19:44,833 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:19:45,294 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:19:46,401 - __main__ - INFO - Choix de rejouer : y
+2024-12-29 15:19:46,402 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:19:46,994 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:19:49,248 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:19:53,533 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:19:57,185 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:20:14,631 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:20:18,946 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:29:50,273 - __main__ - WARNING - Le joueur a stoppé la session
+2024-12-29 15:29:52,447 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 15:29:57,641 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:29:58,861 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:30:01,775 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:30:07,453 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:30:10,273 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:30:10,793 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:30:11,195 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:30:13,245 - __main__ - INFO - Choix de rejouer : y
+2024-12-29 15:30:13,245 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:30:13,787 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:30:14,291 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:30:15,506 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:30:16,010 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:30:23,845 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:30:27,876 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:30:33,617 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:30:35,945 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:31:03,421 - __main__ - WARNING - Le joueur a stoppé la session
+2024-12-29 15:36:34,046 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 15:36:38,988 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:36:41,821 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:36:42,778 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:36:43,636 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:36:47,972 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:36:51,122 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:36:53,409 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:37:01,947 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:37:10,758 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:45:13,685 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 15:45:21,508 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:45:35,964 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 15:45:48,717 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:46:47,737 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 15:47:16,680 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:47:24,976 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:47:32,699 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:47:47,911 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:47:54,398 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:48:01,337 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:48:05,012 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:48:07,168 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:48:11,325 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:48:14,066 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:48:16,756 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:52:25,611 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 15:52:39,119 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:52:41,803 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:52:42,402 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:52:42,952 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:52:48,532 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:52:50,244 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:52:52,284 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:52:53,698 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:52:55,592 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:52:57,796 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:52:59,322 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:53:02,646 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:53:06,287 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:53:07,209 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:53:07,621 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:53:08,281 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:53:09,056 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:53:09,713 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:53:10,315 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 15:53:10,860 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 15:53:13,973 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:53:14,632 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 15:53:15,201 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:53:15,770 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:53:16,254 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:53:16,804 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 15:53:17,345 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 15:53:18,357 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 15:53:51,411 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 15:53:59,723 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 15:54:01,245 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 16:02:14,736 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:02:26,064 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:04:17,058 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:04:23,136 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:04:57,119 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:05:05,711 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:05:07,191 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 16:05:09,139 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 16:05:10,445 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 16:05:11,206 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 16:05:15,995 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:05:16,479 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 16:05:16,880 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 16:05:17,244 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 16:05:17,647 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:05:18,052 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 16:05:18,419 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 16:05:18,777 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 16:05:19,136 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:05:19,492 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 16:05:19,817 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 16:05:20,164 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 16:06:08,025 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:06:14,964 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:06:24,578 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:06:40,129 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 16:06:49,301 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 16:07:32,071 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:07:39,062 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:07:44,191 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:07:45,147 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 16:08:34,392 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 16:08:40,530 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:08:47,923 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 16:08:49,939 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 16:08:55,352 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 16:09:50,832 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:09:57,830 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:10:58,778 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:11:10,274 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:11:37,286 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:11:42,846 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:11:47,294 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 16:11:51,006 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 16:12:13,598 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:12:17,657 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:12:29,075 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 16:12:50,896 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:13:02,307 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:13:11,663 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 16:13:32,724 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:13:50,349 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 16:14:20,166 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 16:16:50,938 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:16:55,794 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:17:10,991 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 16:17:25,493 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 16:20:01,925 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 16:20:12,978 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 16:20:26,111 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:20:33,431 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:20:54,224 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 16:20:58,438 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 16:21:02,675 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:29:12,017 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:31:27,021 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:31:33,679 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:31:48,939 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:31:58,686 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 16:32:16,034 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 16:32:28,673 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 16:33:25,780 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:33:36,689 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:34:47,637 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:34:52,697 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:35:07,045 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 16:36:51,972 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:37:06,535 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:37:14,670 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 16:37:29,055 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:37:43,618 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:37:50,969 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 16:38:04,079 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 16:38:12,122 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 16:38:25,509 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 16:38:39,502 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:38:50,212 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 16:38:57,977 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 16:39:06,644 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 16:39:14,320 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 16:39:30,457 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 16:39:38,049 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 16:57:57,140 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 16:58:09,985 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 16:58:22,315 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:58:30,589 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:58:36,688 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 16:58:42,103 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 16:58:47,621 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 16:58:55,963 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 17:03:28,030 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 17:03:32,083 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 17:03:38,099 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 17:03:50,480 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 17:03:56,261 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 17:04:06,522 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 17:04:33,761 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 17:05:28,227 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 17:05:44,094 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 17:05:55,577 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 17:06:14,308 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 17:06:20,653 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 17:18:53,805 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 17:19:00,299 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 17:19:09,287 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 17:19:20,671 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 17:19:28,131 - decorator_logger - INFO - Method: lancer_de, Result: 3
+2024-12-29 17:19:36,637 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 17:19:45,505 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 17:20:05,077 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 17:20:10,496 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 17:20:15,644 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 17:20:33,407 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 17:20:38,824 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 17:20:43,630 - decorator_logger - INFO - Method: lancer_de, Result: 4
+2024-12-29 17:20:59,269 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 17:21:08,245 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 17:40:48,068 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 17:41:01,977 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 17:41:09,990 - decorator_logger - INFO - Method: _gerer_deplacement, Result: question
+2024-12-29 17:41:29,826 - decorator_logger - INFO - Method: _gerer_deplacement, Result: question
+2024-12-29 17:41:37,431 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
+2024-12-29 17:41:51,588 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
+2024-12-29 17:42:08,450 - decorator_logger - INFO - Method: _gerer_deplacement, Result: question
+2024-12-29 17:42:16,649 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
+2024-12-29 17:43:18,145 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
+2024-12-29 17:43:44,024 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 17:48:52,918 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 17:49:42,268 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 17:56:17,068 - __main__ - INFO - Lancement du jeu de plateau.

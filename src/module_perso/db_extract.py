@@ -57,3 +57,15 @@ def recuperer_scores():
         if conn:
             cursor.close()
             conn.close()
+
+def top_3(scores):
+
+    scores_aggreges = {}
+    for score_dict in scores:
+        for nom, score in score_dict.items():
+            scores_aggreges[nom] = scores_aggreges.get(nom, 0) + score
+
+    scores_tries = sorted(scores_aggreges.items(), key=lambda x: x[1], reverse=True)
+
+    # le top 3 seulement
+    return scores_tries[:3]
