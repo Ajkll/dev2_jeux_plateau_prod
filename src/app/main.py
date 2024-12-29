@@ -1,8 +1,5 @@
 import sys
 from pathlib import Path
-
-sys.path.append(str(Path(__file__).resolve().parent.parent))
-
 from module_perso.jeu import Jeu
 from module_perso.affichage import Affichage
 from module_perso.logging_config import get_logger
@@ -46,7 +43,7 @@ def top_3(scores):
 
 
 def main():
-    print(f"Top 3 : { top_3(recuperer_scores()) }")
+    print(f"Top 3 : {top_3(recuperer_scores())}")
     logger.info("Lancement du jeu de plateau.")
     affichage = Affichage()
 
@@ -69,6 +66,7 @@ def main():
         affichage.affichage_plateau(jeu.plateau)
 
         vainqueur = False
+        
         while not vainqueur:
             joueur_actuel = joueurs[jeu.joueur_actuel]
             pion_actuel = joueur_actuel.pion

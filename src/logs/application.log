@@ -516,3 +516,17 @@
 2024-12-28 21:36:29,368 - __main__ - INFO - Lancement du jeu de plateau.
 2024-12-28 21:36:43,061 - __main__ - INFO - Nouvelle partie initialisée.
 2024-12-28 21:36:52,253 - __main__ - WARNING - Le joueur a stoppé la session
+2024-12-29 10:46:37,719 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 10:46:56,673 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-29 10:47:17,556 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-29 10:47:25,239 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 10:47:42,801 - decorator_logger - INFO - Method: lancer_de, Result: 6
+2024-12-29 10:47:53,076 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 10:48:06,756 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 10:48:07,800 - decorator_logger - INFO - Method: lancer_de, Result: 1
+2024-12-29 10:48:08,805 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 10:48:09,476 - decorator_logger - INFO - Method: lancer_de, Result: 5
+2024-12-29 10:48:10,082 - decorator_logger - INFO - Method: lancer_de, Result: 2
+2024-12-29 10:48:23,964 - __main__ - INFO - Choix de rejouer : n
+2024-12-29 10:48:23,988 - __main__ - INFO - Fermeture du jeu.
+2024-12-29 10:48:30,038 - __main__ - INFO - Lancement du jeu de plateau.

@@ -41,13 +41,11 @@ def recuperer_scores():
         cursor = conn.cursor()
 
         # Récupérer tous les scores
-        cursor.execute(
-            """
-            SELECT pseudo, score_total 
+        cursor.execute("""
+            SELECT pseudo, score_total
             FROM scores
             ORDER BY score_total DESC;
-        """
-        )
+        """)
         rows = cursor.fetchall()
 
         scores_tries = [{row[0]: row[1]} for row in rows]

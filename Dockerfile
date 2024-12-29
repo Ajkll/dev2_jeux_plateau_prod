@@ -1,16 +1,17 @@
-# Utilise une image Python officielle
+# Utiliser une image de base Python
 FROM python:3.9-slim
+
+# Installer Git
+RUN apt-get update && apt-get install -y git && apt-get clean
 
 # Définir le répertoire de travail
 WORKDIR /app
 
-# Copier les fichiers nécessaires
-COPY requirements.txt /app/
-COPY src /app/src/
+# Copier tous les fichiers nécessaires dans le conteneur
+COPY . /app
 
-# Installer les dépendances via pip (à partir de requirements.txt)
-RUN pip install --no-cache-dir -r requirements.txt
+# Installer les dépendances et le package local
+RUN pip install --no-cache-dir .
 
-# Commande par défaut pour exécuter votre application
-CMD ["python", "src/app/main.py"]
-
+# Commande par défaut pour exécuter ton application
+CMD ["python", "-m", "app"]
