@@ -18,6 +18,7 @@ logger = get_logger(__name__)
 async def traiter_case_speciale(
     effet, jeu, affichage, pion_actuel, joueurs, server, joueur_actuel
 ):
+    """traiter l'effet de la case speciale en cascade limiter a une suite d'evenment en chaine de 5 max pour les joueur qui serais tomber sur une case speciale"""
     while effet and jeu.compteur_cascade < jeu.limite_cascade:
         if effet == "reculer":
             affichage.affichage_effet_case(effet, pion_actuel)
@@ -26,7 +27,9 @@ async def traiter_case_speciale(
             affichage.affichage_effet_case(effet, pion_actuel)
             question = jeu.poser_question()
             affichage.afficher_question(question)  # Utilise la méthode mise à jour
-            reponse_client = await server.your_turn(joueur_actuel)
+            reponse_client = await server.your_turn(
+                joueur_actuel
+            )  # asychronous pour permetre de repondre au questions
             if reponse_client.isdigit():
                 reponse = int(reponse_client)
                 correct = jeu.verifier_reponse(reponse, question)
@@ -47,6 +50,7 @@ async def traiter_case_speciale(
 
 @log_result
 def afficher_score_gagnant(affichage, joueurs):
+    """Affiche le score de chaque joueur et le joueur gagnant actuellement."""
     affichage.afficher_message("Score :")
     for joueur in joueurs:
         affichage.afficher_message(str(joueur))
@@ -58,6 +62,7 @@ def afficher_score_gagnant(affichage, joueurs):
 
 @log_result
 async def demander_rejouer(affichage, joueurs, server):
+    """Demande aux joueurs si ils veulent tous rejouer apres une partie (ils doissent choisir tous dire y pour rejouer)."""
     enregistrer_scores(joueurs)
     affichage.demander_rejouer()
 
@@ -95,6 +100,7 @@ async def demander_rejouer(affichage, joueurs, server):
 
 @log_result
 async def jouer_tour(jeu, affichage, joueurs, server):
+    """Joue un tour du jeu avec les joueurs et le serveur WebSocket."""
     try:
         joueur_actuel = joueurs[jeu.joueur_actuel]
         affichage.afficher_infos_tour(joueur_actuel, joueurs, jeu.plateau)
