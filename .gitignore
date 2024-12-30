@@ -1,4 +1,4 @@
-# Environnement Python
+# Environnement Python a ignorer si present
 __pycache__/
 *.py[cod]
 *.pyc
@@ -6,14 +6,27 @@ __pycache__/
 *.pyd
 *.swp
 
-# Environnements virtuels
+# Environnements virtuels a ignorer si present
 .env/
 .venv/
 venv/
 .venc/
 venc/
 
-# Outils
+# Outils a ignorer si present
 poetry.lock
 *.egg-info
 
+# Fichiers temporaires ou locaux
+*.log
+*.bak
+*.tmp
+*.old
+
+# Répertoire de logs
+logs/
+logs/**
+
+
+# Autres 
+.coverage

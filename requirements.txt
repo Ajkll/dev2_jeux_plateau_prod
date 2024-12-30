@@ -14,4 +14,5 @@ pyflakes==3.2.0
 pygame==2.6.1
 setuptools==75.6.0
 setuptools-scm==8.1.0
+websocket-client==1.8.0
 websockets==14.1

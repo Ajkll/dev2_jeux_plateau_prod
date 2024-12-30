@@ -74,3 +74,4 @@ body:
       label: Useful Technical Information
       description: "Add any additional technical notes, considerations, or nice-to-know details."
       placeholder: "Useful technical info goes here."
+# template pour notre kanban pour les issues/features

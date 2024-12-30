@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
-
+# on passe le readme aussi pour pypi et les release github
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
     name="dev_2",
-    use_scm_version=True,
+    use_scm_version=True,  # maintenue par scm (voir le fichier .toml)
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     install_requires=[],

@@ -1,334 +1,245 @@
-2024-12-29 14:45:12,199 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 14:45:32,450 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 14:45:51,993 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 14:46:02,633 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 14:46:07,386 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:03:15,909 - __main__ - INFO - Choix de rejouer : n
-2024-12-29 15:03:16,028 - __main__ - INFO - Fermeture du jeu.
-2024-12-29 15:03:18,808 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 15:03:23,865 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:03:25,814 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:03:28,602 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:03:31,220 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:03:33,182 - __main__ - INFO - Choix de rejouer : y
-2024-12-29 15:03:33,182 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:03:34,897 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:03:38,129 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:03:42,412 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:03:43,466 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:03:44,257 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:03:45,439 - __main__ - INFO - Choix de rejouer : y
-2024-12-29 15:03:45,439 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:03:47,028 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:03:51,398 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:03:52,270 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:03:53,669 - __main__ - INFO - Choix de rejouer : y
-2024-12-29 15:03:53,669 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:03:54,888 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:03:55,615 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:03:57,904 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:03:58,678 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:03:59,381 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:04:00,555 - __main__ - INFO - Choix de rejouer : y
-2024-12-29 15:04:00,555 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:04:02,186 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:04:04,565 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:04:08,236 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:04:08,837 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:04:13,779 - __main__ - INFO - Choix de rejouer : y
-2024-12-29 15:04:13,779 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:05:03,358 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:05:09,646 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:05:10,110 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:05:10,466 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:05:10,832 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:05:11,778 - __main__ - INFO - Choix de rejouer : y
-2024-12-29 15:05:11,778 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:05:12,247 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:05:14,532 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:05:15,601 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:05:16,061 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:05:16,447 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:05:16,782 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:05:17,141 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:05:17,511 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:05:18,270 - __main__ - INFO - Choix de rejouer : y
-2024-12-29 15:05:18,271 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:05:18,826 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:05:20,998 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:05:21,398 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:05:21,778 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:05:22,154 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:05:22,550 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:05:23,350 - __main__ - INFO - Choix de rejouer : y
-2024-12-29 15:05:23,350 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:05:24,888 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:05:26,171 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:05:26,637 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:05:27,043 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:05:27,697 - __main__ - INFO - Choix de rejouer : y
-2024-12-29 15:05:27,698 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:05:28,749 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:17:03,079 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 15:17:07,288 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:17:08,495 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:17:08,848 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:17:09,177 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:17:09,511 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:17:09,809 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:17:10,138 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:17:11,192 - __main__ - INFO - Choix de rejouer : y
-2024-12-29 15:17:11,193 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:17:11,507 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:17:11,860 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:17:12,162 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:19:10,452 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 15:19:15,618 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:19:16,640 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:19:17,028 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:19:17,358 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:19:17,658 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:19:17,992 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:19:18,307 - __main__ - INFO - Choix de rejouer : y
-2024-12-29 15:19:18,308 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:19:18,779 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:19:25,668 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:19:28,963 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:19:30,990 - __main__ - INFO - Choix de rejouer : y
-2024-12-29 15:19:30,991 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:19:32,418 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:19:35,034 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:19:37,691 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:19:40,303 - __main__ - INFO - Choix de rejouer : y
-2024-12-29 15:19:40,304 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:19:40,993 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:19:43,769 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:19:44,354 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:19:44,833 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:19:45,294 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:19:46,401 - __main__ - INFO - Choix de rejouer : y
-2024-12-29 15:19:46,402 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:19:46,994 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:19:49,248 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:19:53,533 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:19:57,185 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:20:14,631 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:20:18,946 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:29:50,273 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-29 15:29:52,447 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 15:29:57,641 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:29:58,861 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:30:01,775 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:30:07,453 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:30:10,273 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:30:10,793 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:30:11,195 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:30:13,245 - __main__ - INFO - Choix de rejouer : y
-2024-12-29 15:30:13,245 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:30:13,787 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:30:14,291 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:30:15,506 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:30:16,010 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:30:23,845 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:30:27,876 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:30:33,617 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:30:35,945 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:31:03,421 - __main__ - WARNING - Le joueur a stoppé la session
-2024-12-29 15:36:34,046 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 15:36:38,988 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:36:41,821 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:36:42,778 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:36:43,636 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:36:47,972 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:36:51,122 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:36:53,409 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:37:01,947 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:37:10,758 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:45:13,685 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 15:45:21,508 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:45:35,964 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 15:45:48,717 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:46:47,737 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 15:47:16,680 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:47:24,976 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:47:32,699 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:47:47,911 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:47:54,398 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:48:01,337 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:48:05,012 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:48:07,168 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:48:11,325 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:48:14,066 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:48:16,756 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:52:25,611 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 15:52:39,119 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:52:41,803 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:52:42,402 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:52:42,952 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:52:48,532 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:52:50,244 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:52:52,284 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:52:53,698 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:52:55,592 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:52:57,796 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:52:59,322 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:53:02,646 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:53:06,287 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:53:07,209 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:53:07,621 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:53:08,281 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:53:09,056 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:53:09,713 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:53:10,315 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 15:53:10,860 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 15:53:13,973 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:53:14,632 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 15:53:15,201 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:53:15,770 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:53:16,254 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:53:16,804 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 15:53:17,345 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 15:53:18,357 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 15:53:51,411 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 15:53:59,723 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 15:54:01,245 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 16:02:14,736 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:02:26,064 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:04:17,058 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:04:23,136 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:04:57,119 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:05:05,711 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:05:07,191 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 16:05:09,139 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 16:05:10,445 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 16:05:11,206 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 16:05:15,995 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:05:16,479 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 16:05:16,880 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 16:05:17,244 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 16:05:17,647 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:05:18,052 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 16:05:18,419 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 16:05:18,777 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 16:05:19,136 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:05:19,492 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 16:05:19,817 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 16:05:20,164 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 16:06:08,025 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:06:14,964 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:06:24,578 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:06:40,129 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 16:06:49,301 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 16:07:32,071 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:07:39,062 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:07:44,191 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:07:45,147 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 16:08:34,392 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 16:08:40,530 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:08:47,923 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 16:08:49,939 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 16:08:55,352 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 16:09:50,832 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:09:57,830 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:10:58,778 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:11:10,274 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:11:37,286 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:11:42,846 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:11:47,294 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 16:11:51,006 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 16:12:13,598 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:12:17,657 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:12:29,075 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 16:12:50,896 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:13:02,307 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:13:11,663 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 16:13:32,724 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:13:50,349 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 16:14:20,166 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 16:16:50,938 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:16:55,794 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:17:10,991 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 16:17:25,493 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 16:20:01,925 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 16:20:12,978 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 16:20:26,111 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:20:33,431 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:20:54,224 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 16:20:58,438 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 16:21:02,675 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:29:12,017 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:31:27,021 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:31:33,679 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:31:48,939 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:31:58,686 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 16:32:16,034 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 16:32:28,673 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 16:33:25,780 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:33:36,689 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:34:47,637 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:34:52,697 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:35:07,045 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 16:36:51,972 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:37:06,535 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:37:14,670 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 16:37:29,055 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:37:43,618 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:37:50,969 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 16:38:04,079 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 16:38:12,122 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 16:38:25,509 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 16:38:39,502 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:38:50,212 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 16:38:57,977 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 16:39:06,644 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 16:39:14,320 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 16:39:30,457 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 16:39:38,049 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 16:57:57,140 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 16:58:09,985 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 16:58:22,315 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:58:30,589 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:58:36,688 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 16:58:42,103 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 16:58:47,621 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 16:58:55,963 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 17:03:28,030 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 17:03:32,083 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 17:03:38,099 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 17:03:50,480 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 17:03:56,261 - decorator_logger - INFO - Method: lancer_de, Result: 5
-2024-12-29 17:04:06,522 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 17:04:33,761 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 17:05:28,227 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 17:05:44,094 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 17:05:55,577 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 17:06:14,308 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 17:06:20,653 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 17:18:53,805 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 17:19:00,299 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 17:19:09,287 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 17:19:20,671 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 17:19:28,131 - decorator_logger - INFO - Method: lancer_de, Result: 3
-2024-12-29 17:19:36,637 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 17:19:45,505 - decorator_logger - INFO - Method: lancer_de, Result: 2
-2024-12-29 17:20:05,077 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 17:20:10,496 - decorator_logger - INFO - Method: lancer_de, Result: 6
-2024-12-29 17:20:15,644 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 17:20:33,407 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 17:20:38,824 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 17:20:43,630 - decorator_logger - INFO - Method: lancer_de, Result: 4
-2024-12-29 17:20:59,269 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 17:21:08,245 - decorator_logger - INFO - Method: lancer_de, Result: 1
-2024-12-29 17:40:48,068 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 17:41:01,977 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 17:41:09,990 - decorator_logger - INFO - Method: _gerer_deplacement, Result: question
-2024-12-29 17:41:29,826 - decorator_logger - INFO - Method: _gerer_deplacement, Result: question
-2024-12-29 17:41:37,431 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
-2024-12-29 17:41:51,588 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
-2024-12-29 17:42:08,450 - decorator_logger - INFO - Method: _gerer_deplacement, Result: question
-2024-12-29 17:42:16,649 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
-2024-12-29 17:43:18,145 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
-2024-12-29 17:43:44,024 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 17:48:52,918 - __main__ - INFO - Lancement du jeu de plateau.
-2024-12-29 17:49:42,268 - __main__ - INFO - Nouvelle partie initialisée.
-2024-12-29 17:56:17,068 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-30 21:05:02,464 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7fe70ce59240>
+2024-12-30 21:05:04,856 - websockets.server - DEBUG - < TEXT 'y' [1 byte]
+2024-12-30 21:05:04,856 - module_perso.websocketo - DEBUG - Message recue de dzed : y
+2024-12-30 21:05:06,859 - decorator_logger - INFO - Method: _gerer_deplacement, Result: reculer
+2024-12-30 21:05:10,865 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
+2024-12-30 21:05:10,869 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7fe70ce59240>
+2024-12-30 21:05:11,399 - websockets.server - DEBUG - < TEXT 'y' [1 byte]
+2024-12-30 21:05:11,400 - module_perso.websocketo - DEBUG - Message recue de dezf : y
+2024-12-30 21:05:13,402 - decorator_logger - INFO - Method: _gerer_deplacement, Result: reculer
+2024-12-30 21:05:17,406 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
+2024-12-30 21:05:17,411 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7fe70ce59240>
+2024-12-30 21:05:17,878 - websockets.server - DEBUG - < TEXT 'y' [1 byte]
+2024-12-30 21:05:17,878 - module_perso.websocketo - DEBUG - Message recue de dzed : y
+2024-12-30 21:05:19,881 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
+2024-12-30 21:05:21,887 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7fe70ce59240>
+2024-12-30 21:05:21,888 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 21:05:21,888 - websockets.server - DEBUG - > PING 35 3a e7 52 [binary, 4 bytes]
+2024-12-30 21:05:21,889 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 21:05:21,889 - websockets.server - DEBUG - > PING b5 77 32 fc [binary, 4 bytes]
+2024-12-30 21:05:21,890 - websockets.server - DEBUG - < PONG 35 3a e7 52 [binary, 4 bytes]
+2024-12-30 21:05:21,890 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 21:05:21,890 - websockets.server - DEBUG - < PONG b5 77 32 fc [binary, 4 bytes]
+2024-12-30 21:05:21,890 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 21:05:25,315 - websockets.server - DEBUG - < TEXT '' [0 bytes]
+2024-12-30 21:05:25,315 - module_perso.websocketo - DEBUG - Message recue de dezf : 
+2024-12-30 21:05:25,319 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7fe70ce59240>
+2024-12-30 21:05:26,619 - websockets.server - DEBUG - < TEXT 'y' [1 byte]
+2024-12-30 21:05:26,619 - module_perso.websocketo - DEBUG - Message recue de dzed : y
+2024-12-30 21:05:28,622 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
+2024-12-30 21:05:42,669 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7fe70ce59240>
+2024-12-30 21:05:42,669 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 21:05:42,670 - websockets.server - DEBUG - > PING b6 68 ef c7 [binary, 4 bytes]
+2024-12-30 21:05:42,670 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 21:05:42,670 - websockets.server - DEBUG - > PING 14 7f af 1a [binary, 4 bytes]
+2024-12-30 21:05:42,671 - websockets.server - DEBUG - < PONG b6 68 ef c7 [binary, 4 bytes]
+2024-12-30 21:05:42,671 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 21:05:42,671 - websockets.server - DEBUG - < PONG 14 7f af 1a [binary, 4 bytes]
+2024-12-30 21:05:42,672 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 21:05:49,158 - websockets.server - DEBUG - < TEXT 'y' [1 byte]
+2024-12-30 21:05:49,158 - module_perso.websocketo - DEBUG - Message recue de dzed : y
+2024-12-30 21:05:49,159 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7fe70ce59240>
+2024-12-30 21:05:53,062 - websockets.server - DEBUG - < TEXT 'y' [1 byte]
+2024-12-30 21:05:53,062 - module_perso.websocketo - DEBUG - Message recue de dezf : y
+2024-12-30 21:05:55,070 - decorator_logger - INFO - Method: reset, Result: None
+2024-12-30 21:05:55,070 - decorator_logger - INFO - Method: reset, Result: None
+2024-12-30 21:05:55,072 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-30 21:05:57,075 - websockets.server - DEBUG - > TEXT "les joueurs sont : ['dzed', 'dezf']" [35 bytes]
+2024-12-30 21:05:57,076 - websockets.server - DEBUG - > TEXT "les joueurs sont : ['dzed', 'dezf']" [35 bytes]
+2024-12-30 21:06:01,085 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7fe70ce595c0>
+2024-12-30 21:06:02,673 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 21:06:02,674 - websockets.server - DEBUG - > PING 9a d0 c3 35 [binary, 4 bytes]
+2024-12-30 21:06:02,675 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 21:06:02,676 - websockets.server - DEBUG - > PING bc f2 f8 3f [binary, 4 bytes]
+2024-12-30 21:06:02,677 - websockets.server - DEBUG - < PONG 9a d0 c3 35 [binary, 4 bytes]
+2024-12-30 21:06:02,678 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 21:06:02,679 - websockets.server - DEBUG - < PONG bc f2 f8 3f [binary, 4 bytes]
+2024-12-30 21:06:02,680 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 21:06:22,695 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 21:06:22,696 - websockets.server - DEBUG - > PING fd 1c 49 c4 [binary, 4 bytes]
+2024-12-30 21:06:22,697 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 21:06:22,697 - websockets.server - DEBUG - > PING 41 87 a6 48 [binary, 4 bytes]
+2024-12-30 21:06:22,698 - websockets.server - DEBUG - < PONG fd 1c 49 c4 [binary, 4 bytes]
+2024-12-30 21:06:22,698 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 21:06:22,698 - websockets.server - DEBUG - < PONG 41 87 a6 48 [binary, 4 bytes]
+2024-12-30 21:06:22,699 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 21:06:29,192 - websockets.server - DEBUG - < TEXT 'q' [1 byte]
+2024-12-30 21:06:29,192 - module_perso.websocketo - DEBUG - Message recue de dzed : q
+2024-12-30 21:06:29,209 - decorator_logger - INFO - Method: get_connected_players, Result: ['dzed']
+2024-12-30 21:06:29,209 - module_perso.websocketo - INFO - Connexion terminer normalement pour le joueur : dezf était encore connecter: ['dzed']
+2024-12-30 21:06:29,209 - module_perso.websocketo - INFO - le lobby n'est pas pret ,nbr de joueurs minimum doit etre >= a minsize et tour le monde n'est pas ready
+2024-12-30 21:06:29,209 - decorator_logger - INFO - Method: get_connected_players, Result: []
+2024-12-30 21:06:29,210 - module_perso.websocketo - INFO - Connexion terminer normalement pour le joueur : dzed était encore connecter: []
+2024-12-30 21:06:29,210 - module_perso.websocketo - INFO - le lobby n'est pas pret ,nbr de joueurs minimum doit etre >= a minsize et tour le monde n'est pas ready
+2024-12-30 22:07:11,138 - asyncio - DEBUG - Using selector: EpollSelector
+2024-12-30 22:07:11,163 - __main__ - INFO - Lancement du jeu de plateau avec WebSocket Server.
+2024-12-30 22:07:11,188 - websockets.server - INFO - server listening on 0.0.0.0:8765
+2024-12-30 22:07:11,188 - module_perso.websocketo - INFO - serveur WebSocketo ready et a l'ecoute (pour tout tentative de connection): ws://0.0.0.0:8765
+2024-12-30 22:07:14,574 - websockets.server - DEBUG - = connection is CONNECTING
+2024-12-30 22:07:14,575 - websockets.server - DEBUG - < GET / HTTP/1.1
+2024-12-30 22:07:14,575 - websockets.server - DEBUG - < Upgrade: websocket
+2024-12-30 22:07:14,575 - websockets.server - DEBUG - < Host: 172.18.0.3:8765
+2024-12-30 22:07:14,576 - websockets.server - DEBUG - < Origin: http://172.18.0.3:8765
+2024-12-30 22:07:14,576 - websockets.server - DEBUG - < Sec-WebSocket-Key: yb+0gWu0IuyEG/Z92XEVRw==
+2024-12-30 22:07:14,576 - websockets.server - DEBUG - < Sec-WebSocket-Version: 13
+2024-12-30 22:07:14,576 - websockets.server - DEBUG - < Connection: Upgrade
+2024-12-30 22:07:14,577 - websockets.server - DEBUG - > HTTP/1.1 101 Switching Protocols
+2024-12-30 22:07:14,577 - websockets.server - DEBUG - > Date: Mon, 30 Dec 2024 22:07:14 GMT
+2024-12-30 22:07:14,577 - websockets.server - DEBUG - > Upgrade: websocket
+2024-12-30 22:07:14,577 - websockets.server - DEBUG - > Connection: Upgrade
+2024-12-30 22:07:14,577 - websockets.server - DEBUG - > Sec-WebSocket-Accept: qUpXqccZ14lA5TLmY/jj9/0hmcs=
+2024-12-30 22:07:14,577 - websockets.server - DEBUG - > Server: Python/3.9 websockets/14.1
+2024-12-30 22:07:14,577 - websockets.server - DEBUG - = connection is OPEN
+2024-12-30 22:07:14,577 - websockets.server - INFO - connection open
+2024-12-30 22:07:14,577 - decorator_logger - INFO - Method: get_connected_players, Result: [None]
+2024-12-30 22:07:14,578 - module_perso.websocketo - INFO - joueurs connectées : [None]
+2024-12-30 22:07:14,578 - websockets.server - DEBUG - > TEXT 'Bonjour,entrer votre pseudo favorit (pls):' [42 bytes]
+2024-12-30 22:07:17,958 - websockets.server - DEBUG - < TEXT '' [0 bytes]
+2024-12-30 22:07:17,959 - module_perso.websocketo - DEBUG - Message recue de None : 
+2024-12-30 22:07:17,959 - module_perso.websocketo - INFO - pseudo joueur joueur ajouter: Joueur1
+2024-12-30 22:07:17,959 - websockets.server - DEBUG - > TEXT 'Joueur1 a rejoint la partie de jeu' [34 bytes]
+2024-12-30 22:07:28,569 - websockets.server - DEBUG - = connection is CONNECTING
+2024-12-30 22:07:28,569 - websockets.server - DEBUG - < GET / HTTP/1.1
+2024-12-30 22:07:28,569 - websockets.server - DEBUG - < Upgrade: websocket
+2024-12-30 22:07:28,569 - websockets.server - DEBUG - < Host: 172.18.0.3:8765
+2024-12-30 22:07:28,569 - websockets.server - DEBUG - < Origin: http://172.18.0.3:8765
+2024-12-30 22:07:28,569 - websockets.server - DEBUG - < Sec-WebSocket-Key: HpAXZR5vyqu3eTQjChHUeA==
+2024-12-30 22:07:28,570 - websockets.server - DEBUG - < Sec-WebSocket-Version: 13
+2024-12-30 22:07:28,570 - websockets.server - DEBUG - < Connection: Upgrade
+2024-12-30 22:07:28,570 - websockets.server - DEBUG - > HTTP/1.1 101 Switching Protocols
+2024-12-30 22:07:28,570 - websockets.server - DEBUG - > Date: Mon, 30 Dec 2024 22:07:28 GMT
+2024-12-30 22:07:28,570 - websockets.server - DEBUG - > Upgrade: websocket
+2024-12-30 22:07:28,570 - websockets.server - DEBUG - > Connection: Upgrade
+2024-12-30 22:07:28,570 - websockets.server - DEBUG - > Sec-WebSocket-Accept: PtiVfOaM0FoH0pvWt2tGuvExLm4=
+2024-12-30 22:07:28,570 - websockets.server - DEBUG - > Server: Python/3.9 websockets/14.1
+2024-12-30 22:07:28,570 - websockets.server - DEBUG - = connection is OPEN
+2024-12-30 22:07:28,570 - websockets.server - INFO - connection open
+2024-12-30 22:07:28,571 - decorator_logger - INFO - Method: get_connected_players, Result: ['Joueur1', None]
+2024-12-30 22:07:28,571 - module_perso.websocketo - INFO - joueurs connectées : ['Joueur1', None]
+2024-12-30 22:07:28,571 - websockets.server - DEBUG - > TEXT 'Bonjour,entrer votre pseudo favorit (pls):' [42 bytes]
+2024-12-30 22:07:29,372 - websockets.server - DEBUG - < TEXT '' [0 bytes]
+2024-12-30 22:07:29,372 - module_perso.websocketo - DEBUG - Message recue de None : 
+2024-12-30 22:07:29,372 - module_perso.websocketo - INFO - pseudo joueur joueur ajouter: Joueur2
+2024-12-30 22:07:29,373 - websockets.server - DEBUG - > TEXT 'Joueur2 a rejoint la partie de jeu' [34 bytes]
+2024-12-30 22:07:29,373 - websockets.server - DEBUG - > TEXT 'Joueur2 a rejoint la partie de jeu' [34 bytes]
+2024-12-30 22:07:34,579 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 22:07:34,580 - websockets.server - DEBUG - > PING f5 81 b0 ce [binary, 4 bytes]
+2024-12-30 22:07:34,580 - websockets.server - DEBUG - < PONG f5 81 b0 ce [binary, 4 bytes]
+2024-12-30 22:07:34,580 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 22:07:35,277 - websockets.server - DEBUG - < TEXT 'ready' [5 bytes]
+2024-12-30 22:07:35,277 - module_perso.websocketo - DEBUG - Message recue de Joueur2 : ready
+2024-12-30 22:07:35,277 - module_perso.websocketo - INFO - Joueur2 est ready
+2024-12-30 22:07:35,278 - decorator_logger - INFO - Method: get_ready_state, Result: Joueur1 (Prêt : Non), Joueur2 (Prêt : Oui)
+2024-12-30 22:07:35,278 - websockets.server - DEBUG - > TEXT 'Joueur2 est ready to go. liste des joueurs read...), Joueur2 (Prêt : Oui)' [95 bytes]
+2024-12-30 22:07:35,278 - websockets.server - DEBUG - > TEXT 'Joueur2 est ready to go. liste des joueurs read...), Joueur2 (Prêt : Oui)' [95 bytes]
+2024-12-30 22:07:35,278 - module_perso.websocketo - INFO - le lobby n'est pas pret ,nbr de joueurs minimum doit etre >= a minsize et tour le monde n'est pas ready
+2024-12-30 22:07:39,407 - websockets.server - DEBUG - < TEXT 'ready' [5 bytes]
+2024-12-30 22:07:39,408 - module_perso.websocketo - DEBUG - Message recue de Joueur1 : ready
+2024-12-30 22:07:39,408 - module_perso.websocketo - INFO - Joueur1 est ready
+2024-12-30 22:07:39,408 - decorator_logger - INFO - Method: get_ready_state, Result: Joueur1 (Prêt : Oui), Joueur2 (Prêt : Oui)
+2024-12-30 22:07:39,408 - websockets.server - DEBUG - > TEXT 'Joueur1 est ready to go. liste des joueurs read...), Joueur2 (Prêt : Oui)' [95 bytes]
+2024-12-30 22:07:39,409 - websockets.server - DEBUG - > TEXT 'Joueur1 est ready to go. liste des joueurs read...), Joueur2 (Prêt : Oui)' [95 bytes]
+2024-12-30 22:07:39,409 - module_perso.websocketo - INFO - tous les players sont ready
+2024-12-30 22:07:40,210 - decorator_logger - INFO - Method: __demander_pseudo, Result: Joueur1
+2024-12-30 22:07:40,210 - decorator_logger - INFO - Method: __demander_pseudo, Result: Joueur2
+2024-12-30 22:07:40,211 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-30 22:07:42,213 - websockets.server - DEBUG - > TEXT "les joueurs sont : ['Joueur1', 'Joueur2']" [41 bytes]
+2024-12-30 22:07:42,213 - websockets.server - DEBUG - > TEXT "les joueurs sont : ['Joueur1', 'Joueur2']" [41 bytes]
+2024-12-30 22:07:46,219 - decorator_logger - INFO - Method: jouer_tour, Result: <coroutine object jouer_tour at 0x7419fde479c0>
+2024-12-30 22:07:46,223 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7419fc9af7c0>
+2024-12-30 22:07:48,574 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 22:07:48,574 - websockets.server - DEBUG - > PING e0 74 19 ab [binary, 4 bytes]
+2024-12-30 22:07:48,575 - websockets.server - DEBUG - < PONG e0 74 19 ab [binary, 4 bytes]
+2024-12-30 22:07:48,575 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 22:07:51,530 - websockets.server - DEBUG - < TEXT 'y' [1 byte]
+2024-12-30 22:07:51,531 - module_perso.websocketo - DEBUG - Message recue de Joueur1 : y
+2024-12-30 22:07:53,534 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
+2024-12-30 22:07:55,536 - decorator_logger - INFO - Method: jouer_tour, Result: <coroutine object jouer_tour at 0x7419fde479c0>
+2024-12-30 22:07:55,544 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7419fc9af7c0>
+2024-12-30 22:07:55,544 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 22:07:55,544 - websockets.server - DEBUG - > PING 66 b4 c3 74 [binary, 4 bytes]
+2024-12-30 22:07:55,545 - websockets.server - DEBUG - < PONG 66 b4 c3 74 [binary, 4 bytes]
+2024-12-30 22:07:55,545 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 22:07:59,847 - websockets.server - DEBUG - < TEXT '' [0 bytes]
+2024-12-30 22:07:59,847 - module_perso.websocketo - DEBUG - Message recue de Joueur1 : 
+2024-12-30 22:07:59,847 - module_perso.websocketo - INFO - Joueur1tente d'ecrire alors que c'est pas son tour
+2024-12-30 22:07:59,848 - websockets.server - DEBUG - > TEXT "Ce n'est pas votre tour attendez !" [34 bytes]
+2024-12-30 22:08:04,836 - websockets.server - DEBUG - < TEXT 'y' [1 byte]
+2024-12-30 22:08:04,836 - module_perso.websocketo - DEBUG - Message recue de Joueur2 : y
+2024-12-30 22:08:06,839 - decorator_logger - INFO - Method: _gerer_deplacement, Result: reculer
+2024-12-30 22:08:08,842 - decorator_logger - INFO - Method: traiter_case_speciale, Result: <coroutine object traiter_case_speciale at 0x7419fc9af7c0>
+2024-12-30 22:08:10,845 - decorator_logger - INFO - Method: _gerer_deplacement, Result: reculer
+2024-12-30 22:08:12,848 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
+2024-12-30 22:08:12,849 - decorator_logger - INFO - Method: jouer_tour, Result: <coroutine object jouer_tour at 0x7419fde479c0>
+2024-12-30 22:08:12,854 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7419fc9af7c0>
+2024-12-30 22:08:12,855 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 22:08:12,855 - websockets.server - DEBUG - > PING 6c 6d 0c 96 [binary, 4 bytes]
+2024-12-30 22:08:12,857 - websockets.server - DEBUG - < PONG 6c 6d 0c 96 [binary, 4 bytes]
+2024-12-30 22:08:12,859 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 22:08:15,548 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 22:08:15,549 - websockets.server - DEBUG - > PING 4c 92 d9 d5 [binary, 4 bytes]
+2024-12-30 22:08:15,549 - websockets.server - DEBUG - < PONG 4c 92 d9 d5 [binary, 4 bytes]
+2024-12-30 22:08:15,550 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 22:08:23,485 - websockets.server - DEBUG - < TEXT 'n' [1 byte]
+2024-12-30 22:08:23,486 - module_perso.websocketo - DEBUG - Message recue de Joueur1 : n
+2024-12-30 22:08:25,488 - decorator_logger - INFO - Method: jouer_tour, Result: <coroutine object jouer_tour at 0x7419fde479c0>
+2024-12-30 22:08:25,497 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7419fc9af7c0>
+2024-12-30 22:08:32,865 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 22:08:32,865 - websockets.server - DEBUG - > PING '[m!7' [text, 4 bytes]
+2024-12-30 22:08:32,867 - websockets.server - DEBUG - < PONG '[m!7' [text, 4 bytes]
+2024-12-30 22:08:32,867 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 22:08:35,553 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 22:08:35,554 - websockets.server - DEBUG - > PING 50 c5 48 bf [binary, 4 bytes]
+2024-12-30 22:08:35,556 - websockets.server - DEBUG - < PONG 50 c5 48 bf [binary, 4 bytes]
+2024-12-30 22:08:35,558 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 22:08:42,420 - websockets.server - DEBUG - < TEXT 'y' [1 byte]
+2024-12-30 22:08:42,420 - module_perso.websocketo - DEBUG - Message recue de Joueur2 : y
+2024-12-30 22:08:44,423 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
+2024-12-30 22:08:46,426 - decorator_logger - INFO - Method: jouer_tour, Result: <coroutine object jouer_tour at 0x7419fde479c0>
+2024-12-30 22:08:46,430 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7419fc9af7c0>
+2024-12-30 22:08:52,873 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 22:08:52,874 - websockets.server - DEBUG - > PING 55 e0 46 4c [binary, 4 bytes]
+2024-12-30 22:08:52,875 - websockets.server - DEBUG - < PONG 55 e0 46 4c [binary, 4 bytes]
+2024-12-30 22:08:52,875 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 22:08:54,193 - websockets.server - DEBUG - < TEXT 'y' [1 byte]
+2024-12-30 22:08:54,193 - module_perso.websocketo - DEBUG - Message recue de Joueur1 : y
+2024-12-30 22:08:56,197 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
+2024-12-30 22:08:58,200 - decorator_logger - INFO - Method: jouer_tour, Result: <coroutine object jouer_tour at 0x7419fde479c0>
+2024-12-30 22:08:58,205 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7419fc9af7c0>
+2024-12-30 22:08:58,205 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 22:08:58,206 - websockets.server - DEBUG - > PING 15 92 28 35 [binary, 4 bytes]
+2024-12-30 22:08:58,206 - websockets.server - DEBUG - < PONG 15 92 28 35 [binary, 4 bytes]
+2024-12-30 22:08:58,206 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 22:08:59,975 - websockets.server - DEBUG - < TEXT 'y' [1 byte]
+2024-12-30 22:08:59,976 - module_perso.websocketo - DEBUG - Message recue de Joueur2 : y
+2024-12-30 22:09:01,979 - decorator_logger - INFO - Method: _gerer_deplacement, Result: reculer
+2024-12-30 22:09:03,981 - decorator_logger - INFO - Method: traiter_case_speciale, Result: <coroutine object traiter_case_speciale at 0x7419fc9af7c0>
+2024-12-30 22:09:05,983 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
+2024-12-30 22:09:05,984 - decorator_logger - INFO - Method: jouer_tour, Result: <coroutine object jouer_tour at 0x7419fde479c0>
+2024-12-30 22:09:05,992 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7419fc9af7c0>
+2024-12-30 22:09:09,536 - websockets.server - DEBUG - < TEXT 'y' [1 byte]
+2024-12-30 22:09:09,537 - module_perso.websocketo - DEBUG - Message recue de Joueur1 : y
+2024-12-30 22:09:11,540 - decorator_logger - INFO - Method: _gerer_deplacement, Result: None
+2024-12-30 22:09:23,575 - decorator_logger - INFO - Method: afficher_score_gagnant, Result: None
+2024-12-30 22:09:23,575 - decorator_logger - INFO - Method: demander_rejouer, Result: <coroutine object demander_rejouer at 0x7419fde479c0>
+2024-12-30 22:09:23,598 - module_perso.db_extract - INFO - Scores enregistrés avec succès dans la base de données.
+2024-12-30 22:09:25,601 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7419fc9af7c0>
+2024-12-30 22:09:25,602 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 22:09:25,603 - websockets.server - DEBUG - > PING 43 64 41 ff [binary, 4 bytes]
+2024-12-30 22:09:25,604 - websockets.server - DEBUG - % sending keepalive ping
+2024-12-30 22:09:25,605 - websockets.server - DEBUG - > PING af 91 78 e1 [binary, 4 bytes]
+2024-12-30 22:09:25,606 - websockets.server - DEBUG - < PONG 43 64 41 ff [binary, 4 bytes]
+2024-12-30 22:09:25,607 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 22:09:25,607 - websockets.server - DEBUG - < PONG af 91 78 e1 [binary, 4 bytes]
+2024-12-30 22:09:25,608 - websockets.server - DEBUG - % received keepalive pong
+2024-12-30 22:09:32,190 - websockets.server - DEBUG - < TEXT 'y' [1 byte]
+2024-12-30 22:09:32,191 - module_perso.websocketo - DEBUG - Message recue de Joueur1 : y
+2024-12-30 22:09:32,191 - decorator_logger - INFO - Method: your_turn, Result: <coroutine object WebSocketServer.your_turn at 0x7419fc9af7c0>
+2024-12-30 22:09:34,401 - websockets.server - DEBUG - < TEXT 'n' [1 byte]
+2024-12-30 22:09:34,401 - module_perso.websocketo - DEBUG - Message recue de Joueur2 : n
+2024-12-30 22:09:44,417 - decorator_logger - INFO - Method: get_connected_players, Result: ['Joueur2']
+2024-12-30 22:09:44,418 - module_perso.websocketo - INFO - Connexion terminer normalement pour le joueur : Joueur1 était encore connecter: ['Joueur2']
+2024-12-30 22:09:44,419 - module_perso.websocketo - INFO - le lobby n'est pas pret ,nbr de joueurs minimum doit etre >= a minsize et tour le monde n'est pas ready
+2024-12-30 22:09:44,420 - decorator_logger - INFO - Method: get_connected_players, Result: []
+2024-12-30 22:09:44,420 - module_perso.websocketo - INFO - Connexion terminer normalement pour le joueur : Joueur2 était encore connecter: []
+2024-12-30 22:09:44,421 - module_perso.websocketo - INFO - le lobby n'est pas pret ,nbr de joueurs minimum doit etre >= a minsize et tour le monde n'est pas ready

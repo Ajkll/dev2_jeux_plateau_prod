@@ -25,7 +25,7 @@ logging.basicConfig(
 
 
 def get_logger(name):
-
+    """Fonction pour log dans notre fichier avec nos regles de loggage personalisées"""
     logger = logging.getLogger(name)
     if not logger.hasHandlers():
         rotating_handler = RotatingFileHandler(

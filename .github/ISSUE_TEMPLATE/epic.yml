@@ -15,3 +15,4 @@ body:
       placeholder: "Describe the goal and purpose of the epic"
     validations:
       required: true
+# template pour notre kanban pour les epics

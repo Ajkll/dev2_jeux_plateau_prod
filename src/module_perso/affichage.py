@@ -1,8 +1,9 @@
 import os
 import time
 
-
+# on ne logs pas no message ici il s'affiche sinon on le serras !
 def un_deux_trois(*messages, delay=2):
+    """Affiche des messages (variatic on sait pas combien de message ici) avec un delay specifique"""
     for message in messages:
         print(f"Annonce : {message}")
         time.sleep(delay)
@@ -11,18 +12,22 @@ def un_deux_trois(*messages, delay=2):
 class Affichage:
     @staticmethod
     def afficher_message(message):
+        """Affiche un message génerique ici"""
         un_deux_trois(message)
 
     @staticmethod
     def affichage_pion(pion):
+        """Affiche la position du pion apres son deplacement grace a la methode lancer de de qui enclanche deplacement dans la class jeu"""
         un_deux_trois(f"{pion.nom} est maintenant sur la case {pion.position}.")
 
     @staticmethod
     def affichage_plateau(plateau):
+        """Affiche le plateau de jeu"""
         un_deux_trois("\nVoici le plateau de jeu :", str(plateau))
 
     @staticmethod
     def afficher_infos_tour(joueur_actuel, joueurs, plateau):
+        """Affiche toutes les infos utilile pour le joueur pour un tour"""
         os.system("cls" if os.name == "nt" else "clear")
         print(f"Tour de {joueur_actuel.pseudo}.")
         print("Positions actuelles des joueurs :")
@@ -31,29 +36,15 @@ class Affichage:
         print("\nPlateau de jeu :")
         print(plateau)
 
-    @staticmethod
-    def demander_action(pion):
-        while True:
-            choix = (
-                input(f"{pion.nom}, voulez-vous lancer le dé ? (y/n/q) : ")
-                .strip()
-                .lower()
-            )
-            if choix in ("y", "n", "q", "esc"):
-                return choix
-            elif choix.isdigit():
-                return int(choix)
-            else:
-                print(
-                    "Entrée invalide. Veuillez répondre par 'y', 'n', un chiffre, ou 'q'/Esc."
-                )
 
     @staticmethod
     def annoncer_vainqueur(pion):
+        """Affiche l'annonce de vainqueur"""
         un_deux_trois(f"Félicitations, {pion.nom}, vous gagnez la partie !")
 
     @staticmethod
     def affichage_effet_case(effet, pion):
+        """Affiche l'effet de la case speciale"""
         if effet == "reculer":
             un_deux_trois(f"Attention ! {pion.nom}, vous devez reculer de 2 cases.")
         elif effet == "question":
@@ -65,22 +56,16 @@ class Affichage:
             )
 
     @staticmethod
-    def poser_question(question):
+    def afficher_question(question):
+        """Affiche la question et les options"""
         print(f"Question : {question['question']}")
         for option in question["options"]:
             print(option)
 
-        while True:
-            reponse = input("Votre réponse (entrez le numéro de l'option) : ").strip()
-            if reponse.isdigit():
-                return int(reponse)
-            else:
-                print(
-                    "Choix de réponse invalide. Veuillez entrer un numéro de réponse."
-                )
 
     @staticmethod
     def affichage_resultat_question(correct, pion):
+        """Affiche le resultat du choix pris pour la question"""
         if correct:
             un_deux_trois(f"Bonne réponse ! {pion.nom}, vous avancez d'une case.")
         else:
@@ -88,18 +73,6 @@ class Affichage:
 
     @staticmethod
     def demander_rejouer():
-        while True:
-            choix = input("Voulez-vous rejouer ? (y/n) : ").strip().lower()
-            if choix in ("y", "n"):
-                return choix
-            else:
-                print("Entrée invalide. Veuillez répondre par 'y' ou 'n'.")
+        """Demande au joueur si il veut rejouer"""
+        un_deux_trois("Voulez-vous rejouer ? (y/n) : ")
 
-    @staticmethod
-    def demander_nb_joueurs():
-        while True:
-            choix = input("Combien de joueurs ? (2-4) : ").strip()
-            if choix.isdigit() and 2 <= int(choix) <= 4:
-                return int(choix)
-            else:
-                print("Entrée invalide. Veuillez entrer un nombre entre 2 et 4.")
