@@ -3,8 +3,10 @@ from module_perso.logging_config import get_logger
 
 logger = get_logger(__name__)
 
+
 class ExceptionCustomGenerationCritiqueErreur(Exception):
     pass
+
 
 class Plateau:
     def __init__(self, taille=10, cases_speciales=None):
@@ -20,7 +22,7 @@ class Plateau:
     def taille(self):
         """getter qui retourne la taille du plateau"""
         return self._taille
-    
+
     @staticmethod
     def generer_cases_speciales(taille, effets_possibles):
         """retourne un dictionnaire contenant les cases speciales et leur effets"""
@@ -34,8 +36,10 @@ class Plateau:
                     cases_speciales[case] = effet
             return cases_speciales
         except ExceptionCustomGenerationCritiqueErreur:
-            logger.exception("Une erreur critique s'est produite lors de la generation des cases speciales")
-            exit(-1) #si cela arrive le programme dois s'arreter
+            logger.exception(
+                "Une erreur critique s'est produite lors de la generation des cases speciales"
+            )
+            exit(-1)  # si cela arrive le programme dois s'arreter
 
     def __str__(self):
         description = []

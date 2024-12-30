@@ -1,5 +1,5 @@
 [flake8]
 format = default
-max-line-length = 160
+max-line-length = 164
 exclude = __pycache__,*.pyc,venv/*,venc/*
 filename = *.py

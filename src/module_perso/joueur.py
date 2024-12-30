@@ -21,7 +21,9 @@ class Joueur:
     @log_result
     def __demander_pseudo(self, pseudo_proposer):
         """Methode pour valider les pseudo choisie cotés clients"""
-        if pseudo_proposer and re.match(r"^[a-zA-Z0-9_\-]{3,15}$", pseudo_proposer): # si les pseudo proposer ne match pas alors on leur donne un pseudo generique !
+        if pseudo_proposer and re.match(
+            r"^[a-zA-Z0-9_\-]{3,15}$", pseudo_proposer
+        ):  # si les pseudo proposer ne match pas alors on leur donne un pseudo generique !
             if pseudo_proposer not in Joueur.Joueurs_pseudos_uniques:
                 Joueur.Joueurs_pseudos_uniques.add(pseudo_proposer)
                 print(f"votre pseudo : '{pseudo_proposer}' est valider !")
@@ -58,14 +60,14 @@ class Joueur:
         self.__victoires_consecutives += 1
 
     @log_result
-    def quitter(self): #inutilisé mais peut servire
+    def quitter(self):  # inutilisé mais peut servire
         """Methode pour nettoyer un attribut de la class avant de quitter le jeu pour un client qui quitte si on avait la possibiliter de revenire peut servire"""
         self.__victoires_consecutives = 0
 
-    def get_scores(self): # inutilisé mais peut servire
+    def get_scores(self):  # inutilisé mais peut servire
         return sorted(self.__scores, reverse=True)
 
-    def scores_detail(self): # inutilisé mais peut servire
+    def scores_detail(self):  # inutilisé mais peut servire
         """Methode pour obtenir les scores des instances de joueur"""
         for score in self.__scores:
             yield score

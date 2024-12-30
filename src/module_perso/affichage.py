@@ -1,6 +1,7 @@
 import os
 import time
 
+
 # on ne logs pas no message ici il s'affiche sinon on le serras !
 def un_deux_trois(*messages, delay=2):
     """Affiche des messages (variatic on sait pas combien de message ici) avec un delay specifique"""
@@ -36,7 +37,6 @@ class Affichage:
         print("\nPlateau de jeu :")
         print(plateau)
 
-
     @staticmethod
     def annoncer_vainqueur(pion):
         """Affiche l'annonce de vainqueur"""
@@ -62,7 +62,6 @@ class Affichage:
         for option in question["options"]:
             print(option)
 
-
     @staticmethod
     def affichage_resultat_question(correct, pion):
         """Affiche le resultat du choix pris pour la question"""
@@ -75,4 +74,3 @@ class Affichage:
     def demander_rejouer():
         """Demande au joueur si il veut rejouer"""
         un_deux_trois("Voulez-vous rejouer ? (y/n) : ")
-

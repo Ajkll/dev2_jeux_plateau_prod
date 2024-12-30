@@ -101,9 +101,7 @@ class WebSocketServer:
                     )
                     await self.update_ready_state()
                 else:
-                    if (
-                        player["pseudo"] == self.current_turn
-                    ):  #  logique a revoir
+                    if player["pseudo"] == self.current_turn:
                         await self.queues[player["pseudo"]].put(message)
                     else:
                         logger.info(

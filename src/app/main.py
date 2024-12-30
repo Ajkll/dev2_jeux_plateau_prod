@@ -13,8 +13,11 @@ from module_perso.decorateurs import log_result
 
 logger = get_logger(__name__)
 
+
 @log_result
-async def traiter_case_speciale(effet, jeu, affichage, pion_actuel, joueurs, server, joueur_actuel):
+async def traiter_case_speciale(
+    effet, jeu, affichage, pion_actuel, joueurs, server, joueur_actuel
+):
     while effet and jeu.compteur_cascade < jeu.limite_cascade:
         if effet == "reculer":
             affichage.affichage_effet_case(effet, pion_actuel)
@@ -41,6 +44,7 @@ async def traiter_case_speciale(effet, jeu, affichage, pion_actuel, joueurs, ser
             affichage.affichage_plateau(jeu.plateau)
             effet = None
 
+
 @log_result
 def afficher_score_gagnant(affichage, joueurs):
     affichage.afficher_message("Score :")
@@ -50,6 +54,7 @@ def afficher_score_gagnant(affichage, joueurs):
     meilleur = max(joueurs, key=lambda joueur: joueur.calculer_score_total())
     affichage.afficher_message(f"Joueur gagnant actuellement: {meilleur}")
     print(f"Top 3 : {top_3(recuperer_scores())}")
+
 
 @log_result
 async def demander_rejouer(affichage, joueurs, server):
@@ -64,9 +69,11 @@ async def demander_rejouer(affichage, joueurs, server):
             choix_rejouer = await server.your_turn(joueur)
             if choix_rejouer.lower() in {"y", "n"}:
                 decisions[joueur.pseudo] = choix_rejouer.lower()
-                break  
+                break
             else:
-                affichage.afficher_message(f"Réponse invalide de {joueur.pseudo}, réessayez.")
+                affichage.afficher_message(
+                    f"Réponse invalide de {joueur.pseudo}, réessayez."
+                )
 
     # si tous les joueurs ont répondu y
     if all(decision == "y" for decision in decisions.values()):
@@ -75,7 +82,9 @@ async def demander_rejouer(affichage, joueurs, server):
             joueur.pion.reset()  # Réinitialise les pions pour une nouvelle partie
         return True
     else:
-        affichage.afficher_message("Tous les joueurs n'ont pas accepté de rejouer. Fin du jeu.")
+        affichage.afficher_message(
+            "Tous les joueurs n'ont pas accepté de rejouer. Fin du jeu."
+        )
         affichage.afficher_message("Scores finaux :")
         joueurs_tries = Joueur.meilleurs_scores(joueurs)
         for joueur in joueurs_tries:
@@ -113,7 +122,13 @@ async def jouer_tour(jeu, affichage, joueurs, server):
 
             if effet:
                 await traiter_case_speciale(
-                    effet, jeu, affichage, joueur_actuel.pion, joueurs, server, joueur_actuel
+                    effet,
+                    jeu,
+                    affichage,
+                    joueur_actuel.pion,
+                    joueurs,
+                    server,
+                    joueur_actuel,
                 )
 
             if jeu.est_vainqueur(joueur_actuel.pion):
@@ -125,7 +140,9 @@ async def jouer_tour(jeu, affichage, joueurs, server):
         return False
     except Exception as e:
         logger.exception(f"Une erreur s'est produite lors du tour du jeu : {e}")
-        exit(-1) #le programme dois s'arreter si cela arrive sans sauvegarder le score dans la db donc !
+        exit(
+            -1
+        )  # le programme dois s'arreter si cela arrive sans sauvegarder le score dans la db donc !
 
 
 async def main():
@@ -135,8 +152,12 @@ async def main():
         logger.info("Lancement du jeu de plateau avec WebSocket Server.")
         affichage = Affichage()
     except Exception as e:
-        logger.exception(f"Une erreur s'est produite lors du lancement des fonctionalité de routine  du jeu : {e}")
-        exit(-1) #le programme dois s'arreter si cela arrive sans sauvegarder le score dans la db donc !
+        logger.exception(
+            f"Une erreur s'est produite lors du lancement des fonctionalité de routine  du jeu : {e}"
+        )
+        exit(
+            -1
+        )  # le programme dois s'arreter si cela arrive sans sauvegarder le score dans la db donc !
     # Démarrage du serveur WebSocket
     try:
         server = WebSocketServer()
@@ -152,8 +173,12 @@ async def main():
                 joueurs = [Joueur(pseudo_proposer=pseudo) for pseudo in pseudos]
                 break
     except Exception as e:
-        logger.exception(f"Une erreur s'est produite lors de la connexion des joueurs : {e} et la gestion des routine du jeux entre main et le serveur / client side")
-        exit(-1) #le programme dois s'arreter si cela arrive sans sauvegarder le score dans la db donc !
+        logger.exception(
+            f"Une erreur s'est produite lors de la connexion des joueurs : {e} et la gestion des routine du jeux entre main et le serveur / client side"
+        )
+        exit(
+            -1
+        )  # le programme dois s'arreter si cela arrive sans sauvegarder le score dans la db donc !
     # Paramètres du plateau
     taille_plateau = random.randint(10, 15)
     effets_possibles = ["reculer", "question", "changement_map"]
@@ -182,19 +207,24 @@ async def main():
                 elif resultat == "vainqueur":
                     vainqueur = True
 
-
             afficher_score_gagnant(affichage, joueurs)
 
             if not await demander_rejouer(affichage, joueurs, server):
                 exit()
 
         except Exception as e:
-            logger.exception(f"Une erreur s'est produite lors de la boucle principale de la partie : {e}")
-            exit(-1) #le programme dois s'arreter si cela arrive sans sauvegarder le score dans la db donc !
+            logger.exception(
+                f"Une erreur s'est produite lors de la boucle principale de la partie : {e}"
+            )
+            exit(
+                -1
+            )  # le programme dois s'arreter si cela arrive sans sauvegarder le score dans la db donc !
+
 
 if __name__ == "__main__":
     try:
         asyncio.run(main())
     except Exception as e:
-        logger.exception(f"Une erreur s'est produite coté serveur : {e}") # on tent de continuer si possible !
-
+        logger.exception(
+            f"Une erreur s'est produite coté serveur : {e}"
+        )  # on tent de continuer si possible !

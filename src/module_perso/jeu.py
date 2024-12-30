@@ -11,6 +11,7 @@ logger = get_logger(__name__)
 class ExceptionCritiqueTourSuivant(Exception):
     pass
 
+
 class Jeu:
     def __init__(self, nom_joueurs, plateau=None):
         self.plateau = plateau
@@ -72,14 +73,21 @@ class Jeu:
         try:
             return next(self.generateur_questions)
         except StopIteration:
-            print("Toutes les questions ont été posées. Génération de nouvelles questions...")
-            self.ajouter_questions_fraction(nombre_questions=10)  # Génère 10 nouvelles questions si on tombe en rabe
-            self.generateur_questions = self.generer_questions()  # Réinitialise le générateur avec ces nouvelles questions
-            return next(self.generateur_questions)  # Retourne la première question du nouveau lots de questions
-
+            print(
+                "Toutes les questions ont été posées. Génération de nouvelles questions..."
+            )
+            self.ajouter_questions_fraction(
+                nombre_questions=10
+            )  # Génère 10 nouvelles questions si on tombe en rabe
+            self.generateur_questions = (
+                self.generer_questions()
+            )  # Réinitialise le générateur avec ces nouvelles questions
+            return next(
+                self.generateur_questions
+            )  # Retourne la première question du nouveau lots de questions
 
     def generer_questions(self):
-        """ Génére des questions et les retourne un par un plus performant que sans générateur """
+        """Génére des questions et les retourne un par un plus performant que sans générateur"""
         for question in self.questions:
             yield question
 
@@ -91,25 +99,29 @@ class Jeu:
         return int(reponse) == question["reponse"]
 
     def est_vainqueur(self, pion):
-        """ Verifie si le pion est au dessus de la case de victoire """
+        """Verifie si le pion est au dessus de la case de victoire"""
         try:
             return pion.position >= self.case_victoire
         except Exception as e:
-            logger.exception(f"Une erreur s'est produite lors de la verification du vainqueur : {e}")
-            exit(-1) #le programme dois s'arreter si cela arrive sans sauvegarder le score dans la db donc !
+            logger.exception(
+                f"Une erreur s'est produite lors de la verification du vainqueur : {e}"
+            )
+            exit(
+                -1
+            )  # le programme dois s'arreter si cela arrive sans sauvegarder le score dans la db donc !
 
     def tour_suivant(self):
-        """ Passe au joueur suivant """
+        """Passe au joueur suivant"""
         try:
             self.joueur_actuel = (self.joueur_actuel + 1) % len(self.pions)
         except ExceptionCritiqueTourSuivant:
             logger.exception(
                 "Le joueur actuel n'a pas pu passer au tour suivant erreur critique"
             )
-            exit(-1) #le programme dois s'arreter si cela arrive
+            exit(-1)  # le programme dois s'arreter si cela arrive
 
     def ajouter_questions_fraction(self, nombre_questions=5):
-        """ genere avec la class fonction des questions de calculs de fractions """
+        """genere avec la class fonction des questions de calculs de fractions"""
         for _ in range(nombre_questions):
             # deux fractions random
             num1, den1 = random.randint(1, 10), random.randint(1, 10)
@@ -127,7 +139,7 @@ class Jeu:
                 "-": f"Quelle est la différence entre {frac1} et {frac2} ?",
                 "*": f"Quel est le produit de {frac1} et {frac2} ?",
             }[operation]
-            
+
             # Génération des options
             options = [
                 str(resultat),
@@ -136,9 +148,11 @@ class Jeu:
             ]
             random.shuffle(options)
             reponse_index = options.index(str(resultat)) + 1
-            
-            self.questions.append({
-                "question": question_texte,
-                "options": [f"{i+1}. {opt}" for i, opt in enumerate(options)],
-                "reponse": reponse_index,
-            })
+
+            self.questions.append(
+                {
+                    "question": question_texte,
+                    "options": [f"{i+1}. {opt}" for i, opt in enumerate(options)],
+                    "reponse": reponse_index,
+                }
+            )

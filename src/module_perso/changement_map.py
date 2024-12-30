@@ -4,8 +4,10 @@ from module_perso.logging_config import get_logger
 
 logger = get_logger(__name__)
 
+
 class ExceptionCustomGenerationCritiqueErreur(Exception):
     pass
+
 
 class Changement_map:
     @staticmethod
@@ -33,5 +35,7 @@ class Changement_map:
             print("Changement de map effectué : Nouvelle taille", taille_plateau - 1)
 
         except ExceptionCustomGenerationCritiqueErreur as e:
-            logger.exception(f"Une erreur s'est produite lors du changement de map : {e}")
-            exit(-1) #le programme dois s'arreter si cela arrive
+            logger.exception(
+                f"Une erreur s'est produite lors du changement de map : {e}"
+            )
+            exit(-1)  # le programme dois s'arreter si cela arrive

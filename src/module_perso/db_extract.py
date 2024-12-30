@@ -4,21 +4,28 @@ from module_perso.logging_config import get_logger
 
 logger = get_logger(__name__)
 
+
 class DBerrorManipulation(Exception):
     pass
+
 
 def obtenir_connexion():
     """Obtenir une connexion à la base de données PostgreSQL tournant sur le docker au port 5432"""
     try:
         return psycopg2.connect(
-            dbname="jeu_scores", user="postgres", password="postgres", host="db", port=5432
+            dbname="jeu_scores",
+            user="postgres",
+            password="postgres",
+            host="db",
+            port=5432,
         )
     except psycopg2.OperationalError as e:
-        logger.exception(f"Une erreur s'est produite lors de la connexion à la base de données : {e}")
+        logger.exception(
+            f"Une erreur s'est produite lors de la connexion à la base de données : {e}"
+        )
 
 
 def enregistrer_scores(joueurs):
-
     """Enregistrer les scores des joueurs dans la base de données"""
     try:
         conn = obtenir_connexion()
@@ -90,4 +97,6 @@ def top_3(scores):
         return scores_tries[:3]
 
     except DBerrorManipulation as e:
-        logger.error(f"Erreur lors de la sélection des meilleurs scores  dans la db: {e}")
+        logger.error(
+            f"Erreur lors de la sélection des meilleurs scores  dans la db: {e}"
+        )
